@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.maincontainer{
+  max-width: 1500px;
+  margin: 0 auto;
+  font-size: 15px;
+  width: 100%;
+  
+}
+
+.hidden-Navbar-links{
+  visibility: hidden;
+  display: none;
+}
+.banner{
+  background-image: url("../public/images/banner1.svg");
+  background-color: #cccccc;
+  height: 55vh;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  margin-top: 65px; 
+}
+
+
+.navbar{
+  background-color: white;
+  padding-left: 0px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px; 
+  font-size: 35px;
+  
+}
+#bars-container{
+  display: flex;
+  align-items: center;
+}
+
+.fa-bars{
+  font-size: 35px;
+  padding-left: 10px;
+
+}
+#bars-container{
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  
+}
+.fa-user-circle{
+  font-size: 35px;
+  color: #F77E23;
+  padding-bottom: 60px;
+  
+  
+} 
+ #fountain{
+  padding-left: 20px;
+  padding-right: 170px;
+  font-size:30px;
+  font-style: Source Sans Pro;
+  color: #F77E23;
+  
+} 
+
+.banner-text{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-style:Poppins;
+  
+}
+.banner-text-header{ 
+   padding-left: 95px;
+  padding-right:75px ;
+  padding-top: 35px; 
+}
+
+.banner-text-paragraph{
+  opacity: 0.8;
+  font-size: 15px; 
+  padding-left: 105px;
+  padding-right:45px ; 
+} 
+.buttons{
+  padding: 15px 32px 15px 32px;
+  margin-top: 20px;
+  background-color: #F77E23;
+  color: white;
+  font-weight: bold;
+  border: #F77E23;
+  border-radius: 5px;
+  margin-left: 45px;
+  }
+
+
+
+  @media screen and (min-width: 1024px) {
+    
+    .hidden-Navbar-links{
+      font-size: 15px;
+      color: white;
+      visibility: visible;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+      
+    }
+    #bars-container{
+      visibility: hidden;
+      display: none;
+    }
+    .fa-user-circle{
+      visibility: hidden;
+      display: none;
+    }
+    .banner{
+      background-image: url("../public/images/banner1.svg");
+      background-color: #cccccc;
+      height: 100vh;
+      background-position: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: 100vw;
+      margin-top: 0px; 
+    }
+    .navbar{
+      background-color: transparent;
+      padding-left: 10px;
+      height: 40px;
+      position: static;
+      bottom: 40px;
+      display: flex;
+      align-items: center;
+      padding-top: 75px;
+      padding-bottom: 0px;  
+    }
+    #name{
+      color: #F77E23;
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+    .navbar-links{
+      /* padding-right: 3vw; */
+      text-decoration: none;
+      /* margin: 0;
+      padding: 0; */
+      color: white;
+        }
+        .second-navlink{
+          /* padding-left: 30px;
+          margin-left: 25vw; */
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 20%;
+        }
+
+        .navbar-links1{
+          /* padding-right: 10px; */
+          text-decoration: none;
+          /* color: white;
+          padding-left: 10px; */
+        }
+        #register{
+          background-color: white;
+          color: #F77E23;
+          font-weight: bold;
+          display: inline-block;
+          height: 30px;
+          padding: 5px 15px 3px 15px ;
+          border-radius: 5px;
+         
+        }
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
