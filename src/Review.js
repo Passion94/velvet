@@ -1,38 +1,57 @@
+import ExpandCircleDownOutlinedIcon from '@mui/icons-material/ExpandCircleDownOutlined';
+
+
+
+
 function Review (){
     
     return(
     <div>
+    <div className='lgreview-flex-section'>
+   <div><h2 id="smreview-header"> What Our <span className='student'>Students</span> <br/>Say About Us</h2> </div>
+    <div className='expandCircledown-container' >
+        <ExpandCircleDownOutlinedIcon className='Expandcircledown1' fontSize='50px'/>
+
+        <ExpandCircleDownOutlinedIcon className='Expandcircledown2' fontSize='50px' />
+    </div>
+    </div>
+
 
         <div>
-            <h1> Reviews</h1>
+            <h1 id="hidereview-header"> Reviews</h1>
         </div>
 
         <div className="review-flex-container">
 
 
         <div className="one">
-            <h2> What our Students say about us</h2>
+            <h2 id="lgreview-header"> What Our <br/><span className='student'>Students</span> Say About Us</h2>
+            <div lgclassName="lgreview-icons">
+            <ExpandCircleDownOutlinedIcon className='Expandcircledown1' fontSize='50px' />
+            <ExpandCircleDownOutlinedIcon className='Expandcircledown2' fontSize='50px' />
+            </div>
         </div> 
 
 
 
         <div className="two">
+       
         <div className="sub-flex-container">
 
             <div>
-                <img src="images/Reviews/image1.svg"/>
+                <img className='review-image'  src="images/Reviews/image1.svg"/>
             </div>
 
             <div>
-                <h3> Mohh Jumah</h3>
-                <h5> Senior Developer</h5>
+                <p className="review-name"> Mohh Jumah<br/> <span className='reviewjob'>Senior Developer</span></p>
+                
             </div>
 
         </div>
 
        
         <div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis </p>
+            <p className='review-para' > Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
         </div>
         </div>
 
@@ -40,16 +59,17 @@ function Review (){
         <div className="three">
         <div className="sub-flex-container">
         <div> 
-        <img src="images/Reviews/image2.svg"/> 
+        <img className='review-image' src="images/Reviews/image2.svg"/> 
         </div> 
         <div>
-            <h3> John Mark</h3>
-            <h5> Data Analyst</h5>
+            <p className="review-name"> John Mark <br/><span className='reviewjob'> Data Analyst</span></p> 
+            
+            </div>
+            
             </div>
             <div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis  </p>
+            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
 
-            </div>
             </div>
         </div>
         

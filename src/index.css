@@ -383,14 +383,116 @@ left: 33px;
 
 .review-flex-container{
   display: flex;
+  justify-content: space-around;
   
-  align-items: center;
+  margin-left: 0px;
   
 }
-/* .sub-flex-container{
+#hidereview-header{
+  text-align: center;
+  visibility: hidden;
+  display: none;
+}
+#lgreview-header{
+  text-align: center;
+ visibility: hidden;
+ display: none;
+  
+}
+.one{
+  display:none;
+}
+.review-name{
+  font-size: 12px;
+  font-weight: 400px;
+  margin-left: -70px;
+}
+.reviewjob{
+  font-size: 12px;
+  color: #F77E23;
+  font-weight: 400px;
+}
+.review-image {
+  height: 28px;
+  width: 28px;
+}
+.review-para{
+  font-size: 12px;
+  font-weight: 400px;
+  padding-left: 40px;
+  padding-right: 15px;
+}
+.student{
+  color: #F77E23;
+  text-decoration: underline;
+}
+.smreview-header{
+  font-size: 24px;
+}
+.sub-flex-container{
  display: flex;
  align-items: center;
-} */
+ justify-content: space-around;
+ 
+}
+.two{
+  background-color: #FFFFFF;
+ box-shadow: 0px 0px 20px rgba(226, 226, 226, 0.25);
+ border-radius: 10px;
+ 
+ 
+}
+.three{
+  background-color: #FFFFFF;
+ box-shadow: 0px 0px 20px rgba(226, 226, 226, 0.25);
+ border-radius: 10px;
+ 
+}
+.lgreview-flex-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Expandcircledown1{
+  color: #F77E23;
+  transform: rotate(90deg);
+  font-size: 50px;
+  
+
+}
+.Expandcircledown2{
+  color: #F77E23;
+  transform: rotate(-90deg);
+  font-size: 50px;
+}
+Footer{
+  background-color: black;
+  color: #f2f2f2;
+}
+.footer-sub-section{
+  /* display: flex; */
+}
+
+.sub-link{
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.form-sub-section{
+  position:relative;
+   width:95%;
+  align-content: center;
+  margin-left: 0.68rem;
+   
+}
+.smsub-button{
+  position: absolute;
+  top:.5rem;
+  right: 0px;
+  padding:.67rem;
+  color: white;
+  background-color: #F77E23;
+  border: 1px solid #F77E23;
+}
 
   @media screen and (min-width: 769px) {
     
@@ -847,6 +949,76 @@ left: 33px;
 }
 .bigcircle{
   margin-right: 50px;
+}
+
+
+
+
+#hidereview-header{
+  text-align: center;
+  visibility: visible;
+  display: block;
+  font-size: 32px;
+}
+#review-header{
+  text-align: center;
+ visibility: visible;
+ display: inline-block;
+  
+}
+
+
+.lgreview-flex-section{
+  display: none;
+ 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.one{
+ text-align: center;
+}
+#lgreview-header{
+  display: block;
+  visibility: visible;
+  font-size: 28px;
+ 
+}
+.student{
+  display: inline-block;
+  padding-left: 20px;
+  
+}
+
+.review-name{
+  font-size: 20px;
+}
+.review-para{
+  font-size: 18px;
+  
+    font-weight: 400px;
+    padding-left: 70px;
+    padding-right: 15px;
+  
+}
+
+.reviewjob{
+  font-size: 18px;
+}
+.review-image{
+  width: 70px;
+  height: 70px;
+}
+
+.one{
+  display: block;
+ 
+}
+.two{
+  width: 33.3%;
+}
+.three{
+  width: 33.3%;
 }
   }
 

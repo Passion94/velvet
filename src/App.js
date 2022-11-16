@@ -12,7 +12,7 @@ import Feautured from "./Feautured";
 import Publications from "./Publications";
 import Recent from "./Recent";
 import Review from "./Review";
-
+import Footer from "./Footer";
 function App() {
   return (
     <div className='maincontainer'>
@@ -30,7 +30,7 @@ function App() {
   <Publications/>
   <Recent/>
   <Review/>
-  
+  <Footer/>
     </div>
   );
 }
