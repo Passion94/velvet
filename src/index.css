@@ -181,9 +181,13 @@ width: 100%;
 }
 
 #experts-woman-image{
+  /* border-radius: 100% 20% 0% 10%;  */
   border-radius: 50%;
-  height:100px;
-  width: 100px;
+  height:200px;
+  width: 200px;
+  /* object-fit: cover; */
+  /* object-position: 55% 55% 55% 55%; */
+  /* overflow: hidden; */
  
 }
 .all-cards{
@@ -371,8 +375,8 @@ text-align: center;
   width: 280px;
   margin-bottom: 0px;
   position: relative;
-bottom: 295px;
-left: 33px;
+bottom: 294.5px;
+left: 32.5px;
 }
 .publications-text{
   margin-top: -550px;
