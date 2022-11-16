@@ -473,30 +473,47 @@ left: 32.5px;
 Footer{
   background-color: black;
   color: #f2f2f2;
+  padding-top: 20px;
 }
 .footer-sub-section{
-  /* display: flex; */
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  line-height: 24px;
 }
-
+.footer-sub-section-one{
+  /* padding-right: 50px; */
+}
+.sub-update{
+text-align: center;
+margin-bottom: 0px;
+}
 .sub-link{
   text-decoration: none;
   color: #f2f2f2;
+  display:block;
 }
+.address{
+  font-weight: bold;
+  
+  
+}
+
 .form-sub-section{
   position:relative;
-   width:95%;
+   width:83%;
   align-content: center;
-  margin-left: 0.68rem;
+  margin-left: 1.9rem;
    
 }
 .smsub-button{
   position: absolute;
   top:.5rem;
   right: 0px;
-  padding:.67rem;
+  padding:.68rem;
   color: white;
   background-color: #F77E23;
-  border: 1px solid #F77E23;
+  border: 2px solid #F77E23;
 }
 
   @media screen and (min-width: 769px) {
