@@ -1,3 +1,8 @@
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import CameraAltOutlinedIcon from '@mui/icons-material/CameraAltOutlined';
+
+
+
 function Footer(){
     return (
         <footer>
@@ -28,6 +33,14 @@ function Footer(){
 </div>
 </div>
 
+<div>
+<p> Fountain</p>
+<a href=""><FacebookOutlinedIcon/></a>
+<a href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
+<a href=""> <CameraAltOutlinedIcon/></a>
+<a href=""></a>
+
+</div>
 
 
         </footer>
