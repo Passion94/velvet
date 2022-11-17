@@ -11,7 +11,7 @@ body {
 
 
 .maincontainer{
-  max-width: 1400px;
+  max-width: 1440px;
   font-size: 15px;
   margin: 0px auto;
   
@@ -296,9 +296,6 @@ padding-right: 15px;
   border-radius: 10px;
   margin-bottom: 15px;
   box-shadow: 0px 0px 20px rgba(203, 203, 203, 0.25);
- 
-  
-  
 }
 .header-name{
   display: flex;
