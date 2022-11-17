@@ -13,6 +13,8 @@ import Publications from "./Publications";
 import Recent from "./Recent";
 import Review from "./Review";
 import Footer from "./Footer";
+import Onlineexams from "./Onlineexams";
+
 function App() {
   return (
     <div className='maincontainer'>
@@ -23,8 +25,10 @@ function App() {
   <Livechatsection/>
   <Topcategories/>
   <Experts/>
-  <All/>
+   <All/> {/*This is the section for Explore our popular course  */}
+  <Onlineexams/>
   <Popular/>
+  
   <Form/>
   <Feautured/>
   <Publications/>
