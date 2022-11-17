@@ -6,7 +6,8 @@ import CameraAltOutlinedIcon from '@mui/icons-material/CameraAltOutlined';
 function Footer(){
     return (
         <footer>
-        <div className="footer">
+        <div className='footer'>
+        <div className="">
         <h5 className="sub-update"> Subscribe to get latest Updates</h5>
 <div className="form-sub-section">
       <input type="text" placeholder="Your Email address" name="Subscribe"/>
@@ -33,15 +34,27 @@ function Footer(){
 </div>
 </div>
 
-<div>
-<p> Fountain</p>
-<a href=""><FacebookOutlinedIcon/></a>
+<div className='down-footer'>
+<p className='footer-name'> Fountain</p>
+<a href=""><FacebookOutlinedIcon className='fa'/></a>
 <a href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
-<a href=""> <CameraAltOutlinedIcon/></a>
-<a href=""></a>
+<a href=""> <CameraAltOutlinedIcon className='fa'/></a>
+<a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 
 </div>
 
+<div className='smcontentionarylogo-flex'>
+<div>
+<img className='smcontentionarylogo' src='images/Contentionarylogo.png'/>
+</div>
+<div>
+<p className='smcontentionarylogoname'> Contentionary</p>
+</div>
+</div>
+<div>
+    <p className='powered'>Powered By Contentionary</p>
+</div>
+</div>
 
         </footer>
     );

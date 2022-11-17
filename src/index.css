@@ -470,10 +470,12 @@ left: 32.5px;
   transform: rotate(-90deg);
   font-size: 50px;
 }
-Footer{
+.footer{
   background-color: black;
   color: #f2f2f2;
   padding-top: 20px;
+  padding-bottom: 20px;
+  /* justify-content: space-around; */
 }
 .footer-sub-section{
   display: flex;
@@ -515,7 +517,48 @@ margin-bottom: 0px;
   background-color: #F77E23;
   border: 2px solid #F77E23;
 }
+.fa{
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-right: 10px;
+  align-items: center;
+  padding: 0px;
 
+}
+.down-footer{
+  margin-left: 30px;
+}
+.footer-name{
+  color: #F77E23;
+  font-size: 32px;
+  font-weight: 600px;
+}
+
+.smcontentionarylogo-flex{
+  display: flex;
+  align-items: center;
+  position: relative;
+ 
+}
+.smcontentionarylogo{
+  height: 60px;
+  margin: 0px;
+  margin-left:19px ;
+}
+.smcontentionarylogoname{
+color: #F77E23;
+font-size: 25px;
+font-weight: bold;
+position:absolute ;
+bottom: 0px;
+
+
+}
+.powered{
+  justify-content: space-around;
+  font-size: 24px;
+  padding-left: 40px;
+}
   @media screen and (min-width: 769px) {
     
     .hidden-Navbar-links{
