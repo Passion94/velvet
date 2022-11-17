@@ -14,8 +14,9 @@ body {
 .maincontainer{
   max-width: 1440px;
   font-size: 15px;
-  margin: 0px auto;
-  width: 95%;
+  margin: 0px ;
+  width: 100%;
+ 
   
   
 }
