@@ -5,9 +5,14 @@ function Form(){
 
     return(
         <div className="form-section">
+
+
+        <div className="form-dotted-circle"></div>
+        <div className="form-close-circle"></div>
         
-<div>
-<img src ="images/Form-image/image1.svg"/>
+<div classname="form-images">
+<img src ="images/Form-image/image1.svg" className="form-image" />
+<img className="form-block-image"src="images/Experts/image3.svg"/>
 </div>
 
 <div  className="container">

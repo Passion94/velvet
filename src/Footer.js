@@ -36,11 +36,12 @@ function Footer(){
 
 <div className='down-footer'>
 <p className='footer-name'> Fountain</p>
+<div className='footer-link'>
 <a href=""><FacebookOutlinedIcon className='fa'/></a>
 <a href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
 <a href=""> <CameraAltOutlinedIcon className='fa'/></a>
 <a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-
+</div>
 </div>
 
 <div className='smcontentionarylogo-flex'>
