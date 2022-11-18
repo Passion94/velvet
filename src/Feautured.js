@@ -19,9 +19,9 @@ function Feautured(){
     <div className="top-categories-image-container">
 
 
-        <div>
+        <div style={{position:"relative"}}>
              <img src="images/Featured/image1.svg"/> 
-        <div className="top-image-text"><span> Marketing</span></div>
+        <div className="top-image-text"><span className="marketing-contest"> Marketing Contest</span></div>
         </div>
         <div>
             <img src="images/Featured/image2.svg"/> 
