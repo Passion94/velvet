@@ -57,6 +57,72 @@ function Footer(){
 </div>
 </div>
 
+
+
+
+
+
+
+
+
+<div className='bgfooter'>
+
+
+<div className="bgfooter-sub-section">
+
+
+
+<div className='bgdown-footer'>
+<p className='bgfooter-name'> Fountain</p>
+<p className="bgfooter-para"> We are not here to sell you <br/> products, we sell value through<br/> our expertise.</p>
+<div className='footer-link'>
+<a href=""><FacebookOutlinedIcon className='fa'/></a>
+<a href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
+<a href=""> <CameraAltOutlinedIcon className='fa'/></a>
+<a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</div>
+</div>
+
+
+
+
+<div className="bgfooter-sub-section-one">
+<p><span className="bgaddress"> Address:</span><br/>38 opebi Road, Ikeja, Lagos <br/>State, Nigeia.</p>
+<p><span className="bgaddress">Phone:</span><br/> +2349022396389</p>
+<p><span className="bgaddress">Email:</span><br/>contact@contentionary.com</p>
+</div>
+
+
+
+<div>
+<p> Company</p>
+<a className="sub-link" href="#"> About</a>
+<a className="sub-link" href="#">Features</a>
+<a className="sub-link" href="#">Pricing</a>
+</div>
+</div>
+
+
+<div className="bgform-suband-form" >
+<div className="bgsub-update">
+<h5> Subscribe to get latest Updates</h5>
+        </div>
+<div className="bgform-sub-section">
+
+      <input type="text" placeholder="Your Email address" name="Subscribe" className='lgfooter-input' />
+      <button className="bgsmsub-button">Subscribe</button>
+    </div>
+</div>
+
+<div className='last-footer-side'>
+
+<img class="smcontentionarylogo" src="images/Contentionarylogo.png"/>
+<p className='bglogoname'> Contentionary</p>
+<p className='bgpowered'> Powered By Contentionary</p>
+</div>
+
+</div>
+
         </footer>
     );
 }

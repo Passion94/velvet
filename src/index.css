@@ -723,7 +723,20 @@ bottom: 0px;
   font-size: 16px;
 }
 
+
+.bgfooter{
+  display: none;
+}
+
   @media screen and (min-width: 769px) {
+
+    .footer{
+      display: none;
+    }
+    .bgfooter{
+      display: block;
+      background-color: black;
+    }
     
     .hidden-Navbar-links{
       font-size: 15px;
@@ -1006,12 +1019,7 @@ bottom: 0px;
           .experts-image-and-text-container{
             display: flex;
             height: 500px;
-            /* transform: rotate(180deg); */
-            
-            /* background:linear-gradient(to top, #ffcccc 0%, #ffffff 100%); */
-            /* backdrop-filter: blur(200px); */
-            /* opacity: 0.9; */
-            /* backdrop-filter: blur(200px); */
+           
             
           }
           
@@ -1193,7 +1201,7 @@ bottom: 0px;
              left: 182px;
             }
             .form-section{
-              background: #ffe2f1;
+              background-color: #fff6ff;
               /* background: linear-gradient(90deg, rgba(250,193,217,1) 0%, rgba(245,245,245,1) 43%, rgba(250,193,217,1) 100%); */
               position: relative;
               display: flex;
@@ -1279,12 +1287,16 @@ bottom: 0px;
   visibility: hidden;
   display: none;
   margin-top: 0px;
+  
+ 
 }
 .bgpublications-container{
   display: flex;
   visibility: visible;
   justify-content: space-around;
   margin-bottom: -100px;
+  background-color: #fff6ff;
+ 
 }
 .bgpublications-text{
   padding-right: 250px;
@@ -1371,10 +1383,82 @@ bottom: 0px;
 
 .recent{
   margin-top: -500px;
+  
 }
 
 .popular-section-container{
   margin-top: 100px;
+}
+
+.bgfooter-sub-section{
+  display: flex;
+  color: white;
+  justify-content: space-around;
+
+}
+
+.bgform-sub-section{
+  position: relative;
+  width: 50%;
+ padding-left: 240px;
+  
+  
+}
+
+
+.bgsmsub-button{
+
+  position: absolute;
+  top:.5rem;
+  right: 0px;
+  padding:.68rem;
+  color: white;
+  background-color: #F77E23;
+  border: 2px solid #F77E23;
+
+}
+
+.lgfooter-input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.75859px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+}
+
+.bgform-suband-form{
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.last-footer-side{
+  color: white;
+  display: flex;
+  padding-right: 40px;
+  align-items: center;
+}
+
+.bglogoname{
+  color: #F77E23;
+  font-size: 20px;
+}
+
+.bgpowered{
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.bgfooter-name{
+  color: #F77E23;
+  font-size: 20px;
+}
+
+.bgfooter-para{
+  
+  font-size: 16px;
 }
   }
 

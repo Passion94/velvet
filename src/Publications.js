@@ -2,7 +2,7 @@
 
 function Publications(){
     return(
-        <div>
+        <div className="publications-main-container">
 <div className="publication-section">
         <div className="circle">
 <div className="bg-circle"></div>
