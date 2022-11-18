@@ -3,7 +3,7 @@ function Recent(){
 
 
     return(
-<div>
+<div className="recent">
 <h1 className="top-categories-header"> Recent Publications</h1>
 <div>
 <div className="see-all-container">

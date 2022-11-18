@@ -3,7 +3,7 @@ function Popular(){
 
 
     return(
-<div>
+<div className="popular-section-container">
 <h1 className="top-categories-header"> Popular Examinations</h1>
 <div>
 <div className="see-all-container">

@@ -18,7 +18,7 @@ function Onlineexams(){
             
             <h1> Our online <span className="student"> examination</span> <br/>is top-notch</h1>
             <p className="expert-textand-button-para"> Prepare your self for greater challenges with our online examination. </p>
-            <button className="  expert-button"> Take a tour</button>
+            <button className=" expert-button"> Take a tour</button>
         
         </div>
     </div>

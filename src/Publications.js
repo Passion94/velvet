@@ -13,7 +13,7 @@ function Publications(){
     </div>
     <div  className="publications-container" >
     <div className="publications-text">
-    <h1> Get Publicstions from best Aurtors around the Globe</h1>
+    <h1> Get <span className="student">Publications</span> from best Aurtors around the Globe</h1>
     <p> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
     <button className=" buttons expert-button"> Register</button>
     </div>
@@ -26,7 +26,7 @@ function Publications(){
     <div  className="bgpublications-container" >
 
     <div className="bgpublications-text">
-    <h1> Get Publicstions from best Aurtors around the Globe</h1>
+    <h1> Get <span className="student">Publications</span> from best Aurtors around the Globe</h1>
     <p> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
     <button className=" buttons publication-button"> Register</button>
     </div>

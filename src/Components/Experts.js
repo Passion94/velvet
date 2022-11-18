@@ -18,7 +18,7 @@ function Experts(){
             
             <h1> We are <span className="student"> Experts</span> Learning institution</h1>
             <p className="expert-textand-button-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit elit, bibendum volutpat platea mi, adipiscing eget magna. </p>
-            <button className="  expert-button"> Get started</button>
+            <button className=" buttons expert-button"> Enroll Now</button>
         
         </div>
     </div>
