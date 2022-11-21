@@ -185,8 +185,8 @@ width: 50%;
   margin-top: 50px;
 }
 .expert-textand-button-para{
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
   font-size: 12px;
 }
 .expert-button{
@@ -220,7 +220,7 @@ width: 50%;
   border: 5px dotted #F77E23;
   position: absolute;
   top: 50px;
-  left: 30px;
+  left: 70px;
   
   
   
@@ -233,7 +233,7 @@ width: 50%;
  background-color:pink;
  position: absolute;
  top: 70px;
- left: 50px;
+ left: 90px;
  
 }
 
@@ -259,11 +259,11 @@ width: 50%;
 #experts-woman-image{
   
   border-radius: 50%;
-  height:300px;
+  height:320px;
   width: 250px;
   position: absolute;
-  top: -10px;
-  left:60px;
+  top: -35px;
+  left:70px;
  
  
  
@@ -273,9 +273,9 @@ width: 50%;
 
 .expert-block-image{
   position: relative;
-  top: 80px;
+  top: 60px;
   height: 300px;
-  width: 150px;
+  width: 210px;
  right: -200px;
 } 
 .all-cards{
