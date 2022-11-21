@@ -185,8 +185,8 @@ width: 50%;
   margin-top: 50px;
 }
 .expert-textand-button-para{
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
   font-size: 12px;
 }
 .expert-button{
@@ -275,8 +275,8 @@ width: 50%;
   position: relative;
   top: 60px;
   height: 300px;
-  width: 210px;
- right: -200px;
+  width: 200px;
+ right: -180px;
 } 
 .all-cards{
   display: flex;
