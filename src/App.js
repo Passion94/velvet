@@ -26,7 +26,7 @@ function App() {
   {/* <Topcategories/> */}
   <Experts/>
    <All/> This is the section for Explore our popular course 
-  {/* <Onlineexams/> */}
+  <Onlineexams/>
   {/* <Popular/> */}
   
   {/* <Form/> */}
