@@ -1,3 +1,7 @@
+
+
+
+
 body {
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,19 +9,17 @@ body {
     sans-serif;
     line-height: 1.5;
     font-size: 15px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    padding: 0;
   
 }
 
 
 
 .maincontainer{
-  max-width: 1440px;
+ width: 100%;
   font-size: 15px;
   margin: 0px ;
-  width: 114%;
- 
-  
   
 }
 
@@ -36,55 +38,66 @@ body {
 .banner{
   background-image: url("../public/images/banner1.svg");
   background-color: #cccccc;
-  min-width:65%;
+  min-width:100%;
   background-position: cover;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   position: relative;
   max-width: 100%;
-  margin-top: 65px; 
+  margin-top: 60px; 
+  padding-top: 100px;
+  height: 40vh;
+ 
 }
 
 
 .navbar{
   background-color: white;
   padding-left: 0px;
-  height: 10px;
+  /* height: 10px; */
   display: flex;
   align-items: center;
   padding-bottom: 0px; 
-  font-size: 35px;
+  /* font-size: 20px; */
+  justify-content: space-around;
+  position: relative;
+  bottom: 180px;
+ 
   
 }
-#bars-container{
+/* #bars-container{
   display: flex;
   align-items: center;
-}
+} */
 
 .fa-bars{
-  font-size: 35px;
-  padding-left: 10px;
+  font-size: 30px;
+  padding-left: 0px;
+ 
 
 }
-#bars-container{
+/* #bars-container{
   display: flex;
   align-items: center;
   padding-bottom: 70px;
   
-}
+} */
 .fa-user-circle{
   font-size: 35px;
-  color: #F77E23;
-  padding-bottom: 60px;
+ color: #F77E23;
+  
   
   
 } 
  #fountain{
-  padding-left: 20px;
-  padding-right: 170px;
+  padding-left: 0px;
+  padding-right: 0px;
   font-size:30px;
   font-style: Source Sans Pro;
   color: #F77E23;
+  margin-left: -80px;
+  font-weight: bold;
+  
   
 } 
 
@@ -94,30 +107,26 @@ body {
   font-size: 12px;
   font-style:Poppins;
   text-align: center;
+  margin-top: -160px;
   
 }
-.banner-text-header{ 
-  padding-top: 40px;
-   padding-left: 40px;
-   
-}
+
 
 .banner-text-paragraph{
   opacity: 0.8;
   font-size: 15px; 
-  padding-left: 100px;
 } 
 .buttons{
   padding: 15px 32px 15px 32px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   background-color: #F77E23;
   color: white;
   font-weight: bold;
   border: #F77E23;
   border-radius: 5px;
-  /* margin-left: 20px; */
   }
+  
   .live-chat-section{
     display: flex;
     justify-content: space-evenly;
@@ -144,7 +153,7 @@ body {
   text-align: center;
 }
 .see-all-container{
-  text-align: end;
+  /* text-align: end; */
   padding-right: 20px;
   padding-bottom: 10px;
 }
@@ -154,20 +163,18 @@ body {
   font-weight: bold;
 }
 .top-categories-image-container{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-  
+  /* display: flex; */
+  /* justify-content: space-evenly; */
  
 }
 .top-image{
 border-radius: 10px;
-width: 100%;
+width: 50%;
 }
 .top-image-text{
   color: whitesmoke;
  
-  left: 30px;
+  /* left: 30px; */
   font-size: 15px;
   font-weight: bold;
  
@@ -175,14 +182,15 @@ width: 100%;
 }
 .expert-textand-button{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .expert-textand-button-para{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 12px;
 }
 .expert-button{
-  padding: 15px 32px 15px 32px;
+  padding: 12px 25px 12px 25px;
   background-color: #F77E23;
   color: white;
   font-weight: bold;
@@ -196,6 +204,8 @@ width: 100%;
   backdrop-filter: blur(300px);
   position: relative;
   margin-top: 50px;
+  /* justify-content: center; */
+
   
   
  
@@ -203,26 +213,27 @@ width: 100%;
 }
 
 .dotted-circle{
-  height: 330px;
-  width: 330px;
+ 
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   border: 5px dotted #F77E23;
   position: absolute;
   top: 50px;
-  left: 20px;
+  left: 30px;
   
   
   
   
 }
 .close-circle{
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
  background-color:pink;
  position: absolute;
- top: 95px;
- left: 65px;
+ top: 70px;
+ left: 50px;
  
 }
 
@@ -237,7 +248,7 @@ width: 100%;
 .experts-image-and-text-container{
   /* display: flex; */
   
-  /* background:linear-gradient(to top, #ffcccc 0%, #ffffff 100%); */
+  /* background:linear-gradient(to top, #ffcccc 0%, #ffffff 100%);
   backdrop-filter: blur(200px);
   /* opacity: 0.9; */
   backdrop-filter: blur(200px);
@@ -248,11 +259,11 @@ width: 100%;
 #experts-woman-image{
   
   border-radius: 50%;
-  height:380px;
-  width: 300px;
+  height:200px;
+  width: 150px;
   position: absolute;
-  top: -40px;
-  left:40px;
+  top: -10px;
+  left:60px;
  
  
  
@@ -262,10 +273,10 @@ width: 100%;
 
 .expert-block-image{
   position: relative;
-  top: 110px;
+  top: 80px;
   height: 300px;
-  width: 230px;
- left: 180px;
+  width: 150px;
+ right: -200px;
 } 
 .all-cards{
   display: flex;
@@ -733,6 +744,9 @@ bottom: 0px;
     .footer{
       display: none;
     }
+    #fountain{
+      display: none;
+    }
     .bgfooter{
       display: block;
       background-color: black;
@@ -781,14 +795,14 @@ bottom: 0px;
     }
     .navbar{
       background-color: transparent;
-      padding-left: 10px;
-      height: 40px;
+      /* padding-left: 10px; */
       position: static;
       bottom: 40px;
       display: flex;
       align-items: center;
-      padding-top: 75px;
+      padding-top: 0px;
       padding-bottom: 0px;  
+      margin-top: -40px;
     }
     #name{
       color: #F77E23;
@@ -830,7 +844,7 @@ bottom: 0px;
           color: white;
           font-size: 18px;
           font-style:Poppins;
-          margin-left: -150px;
+          margin-top: 0px;
 
          
           
@@ -875,7 +889,7 @@ bottom: 0px;
           }
 
           .top-categories-header{
-            font-size: 25px;
+            font-size: 24px;
           }
 
           .see-all-container{
@@ -887,29 +901,30 @@ bottom: 0px;
          
           .top-categories-img-lg{
             display: flex;
-            align-items: center;
+            /* align-items: center; */
             visibility: visible;
-            justify-content: space-evenly;
+            /* justify-content: space-around; */
             height: 100vh;
-            margin-left: 35px;
-            margin-right: 35PX;
-            margin-top: -90px;
+            /* margin-left: 35px; */
+            /* margin-right: 35PX; */
+            margin-top: 50px;
             /* position: relative;
             top: -80px; */
           }
           .top-large-images{
-            margin-left: 10px;
-            margin-right: 10px;
+            /* margin-left: 10px; */
+            margin-right: 0px;
             
           }
 
           #marketing-background-img{
             background-image:url("../public/images/Topcategories-images/imagelg1.svg");
             height: 65vh;
-            width: 100%;
+            width:25%;
             background-color: blue;
             background-position: contain;
             background-repeat: no-repeat;
+            
             background-size: cover;
         
           }
@@ -917,7 +932,7 @@ bottom: 0px;
           #design-background-img{
             background-image:url("../public/images/Topcategories-images/img1.png");
             height: 65vh;
-            width: 100%;
+            width: 25%;
             background-color: blue;
             background-position: contain;
             background-repeat: no-repeat;
@@ -927,7 +942,7 @@ bottom: 0px;
           #programming-background-img{
             /* background-image:url("../public/images/Topcategories-images/img3.png"); */
             height: 65vh;
-            width: 100%;
+            width: 25%;
             background-color: blue;
             background-position: contain;
             background-repeat: no-repeat;
@@ -938,7 +953,7 @@ bottom: 0px;
           #technology-background-img{
             background-image:url("../public/images/Topcategories-images/imagelg4.png");
             height: 65vh;
-            width: 100%;
+            width: 25%;
             background-color: blue;
             background-position: contain;
             background-repeat: no-repeat;

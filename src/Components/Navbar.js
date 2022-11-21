@@ -3,14 +3,17 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function Navbar(){
-return (<div >
+return (<div>
 <div className="navbar">
-    <div >
-     <span id='bars-container'><MenuOutlinedIcon className='fas fa-bars' fontSize='30px'/><span id='fountain'>Fountain</span></span>
-</div>
-<div>
- <AccountCircleOutlinedIcon className='far fa-user-circle' fontSize='35px'/>
-     </div> 
+    
+        <MenuOutlinedIcon className='fas fa-bars' fontSize='30px'/>
+        <p id='fountain'> Fountain</p> 
+        
+        <AccountCircleOutlinedIcon className='far fa-user-circle' fontSize='35px'/>
+   
+     
+
+
      <div className='hidden-Navbar-links' style={{width: '91vw'}}>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
             <a className='navbar-links'><h1 id='name' style={{height: '32px', marginRight: '4rem'}}>Fountain</h1></a>
