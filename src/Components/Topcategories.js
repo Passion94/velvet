@@ -13,7 +13,7 @@ function Topcategories(){
         <div className="top-large-images" id="marketing-background-img"><p className="marketing-img-text">Marketing</p> </div>
         <div className="top-large-images" id="design-background-img"><p className="marketing-img-text">Design</p></div>
         <div className="top-large-images" id="programming-background-img"><p className="marketing-img-text">Programming</p></div>
-        <div className="top-large-images" id="technology-background-img"></div>
+        <div className="top-large-images" id="technology-background-img"> <p className="marketing-img-text">Technology</p></div>
         </div>
 
     <div className="top-categories-image-container">
