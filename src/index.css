@@ -336,6 +336,9 @@ padding-right: 15px;
 .price{
   color: #F77E23;
   font-weight: 500px;
+  position: relative;
+  bottom: 25px;
+  left: -145px;
 }
 .icons{
   color: #F77E23;
@@ -1109,6 +1112,7 @@ bottom: 0px;
           .price{
             color: #F77E23;
             font-weight: 500px;
+            position: static;
           }
           .icons{
             color: #F77E23;
@@ -1125,6 +1129,7 @@ bottom: 0px;
             display: flex;
             align-items: center;
             justify-content: space-around;
+            position: relative;
           }
           .bimg{
             border-radius: 8px 8px 0px 0px;
