@@ -25,7 +25,7 @@ function App() {
   <Livechatsection/>
   {/* <Topcategories/> */}
   <Experts/>
-   {/* <All/> This is the section for Explore our popular course  */}
+   <All/> This is the section for Explore our popular course 
   {/* <Onlineexams/> */}
   {/* <Popular/> */}
   
