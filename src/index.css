@@ -1177,11 +1177,11 @@ bottom: 0px;
           .popular-image-text{
             color:black;
             font-size: 20px;
-            position: relative;
-            bottom: 90px;
+            position: absolute;
+            bottom: -10px;
             color: white;
-            padding-left: 10px;
-            padding-right: 65px;
+            padding-left: 15px;
+            /* padding-right: 65px; */
             }
             .popular-img-text{
               position: relative;
@@ -1270,28 +1270,28 @@ bottom: 0px;
             }
 
             .featured-img-text{
-              color: blue;
+              
               font-size: 24px;
-              position: relative;
-              top: 265px;
-              padding-left: 10px;
-              padding-right: 20px;
+              position: absolute;
+             
+              padding-left: 20px;
+              
               font-weight: bold;
               color: #FFFFFF;
+              bottom: 0px;
               
               
             }
 
               .featured-para-text{
               color: #FFFFFF;
-              font-size: 20px;
-              margin-top: 263px;
+              font-size: 16px;
+              position: absolute;
+              /* margin-top: 280px; */
+              padding-left: 20px ;
+              bottom: -20px;
               }
-              .featured-para-text1{
-                color: #FFFFFF;
-                font-size: 20px;
-                margin-top: 260px;
-                }
+              
 
      #feat-head{
       font-size: 24px;

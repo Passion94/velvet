@@ -10,10 +10,10 @@ function Feautured(){
             <a  className="see-all"href="#"> See all</a>
         </div>
         <div className="top-categories-img-lg">
-        <div className="top-large-images" id="marketing-background-img"><p className="featured-img-text">Marketing Contest</p><p className="featured-para-text1">The Future Economy</p></div>
-        <div className="top-large-images" id="design-background-img"><p className="featured-img-text">UI/UX Design Contest</p><p className="featured-para-text">Accessibility in design</p></div>
-        <div className="top-large-images" id="programming-background-img"><p className="featured-img-text">Programming Contest</p><p className="featured-para-text">The Future of AI</p></div>
-        <div className="top-large-images" id="technology-background-img"><p className="featured-img-text">Photography Contest</p> <p className="featured-para-text">The Beauty of Art</p></div>
+        <div className="top-large-images" id="marketing-background-img"><p className="featured-img-text">Marketing<br/> Contest</p><p className="featured-para-text">The Future Economy</p></div>
+        <div className="top-large-images" id="design-background-img"><p className="featured-img-text">UI/UX Design<br/> Contest</p><p className="featured-para-text">Accessibility in design</p></div>
+        <div className="top-large-images" id="programming-background-img"><p className="featured-img-text">Programming<br/> Contest</p><p className="featured-para-text">The Future of AI</p></div>
+        <div className="top-large-images" id="technology-background-img"><p className="featured-img-text">Photography<br/> Contest</p> <p className="featured-para-text">The Beauty of Art</p></div>
         </div>
 
     <div className="top-categories-image-container">
