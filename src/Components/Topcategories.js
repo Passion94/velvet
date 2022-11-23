@@ -8,14 +8,26 @@ function Topcategories(){
         </div>
         <div className="see-all-container">
             <a  className="see-all"href="#"> See all</a>
+          
+            
         </div>
+        <div className="  carousal-section">
+        <div>
+        <img className="carousal carousal1" src="images/carousal1.svg"/>
+        </div>
+        <div>
+        <img className="carousal carousal2" src="images/carousal2.svg"/> 
+        </div>
+        </div>
+        
         <div className="top-categories-img-lg">
         <div className="top-large-images" id="marketing-background-img"><p className="marketing-img-text">Marketing</p> </div>
         <div className="top-large-images" id="design-background-img"><p className="marketing-img-text">Design</p></div>
         <div className="top-large-images" id="programming-background-img"><p className="marketing-img-text">Programming</p></div>
-        <div className="top-large-images" id="technology-background-img"> <p className="marketing-img-text">Technology</p></div>
+        <div className="top-large-images" id="technology-background-img"> <p className="marketing-img-text technology-img">Technology</p></div>
         </div>
-
+        
+        
     <div className="top-categories-image-container">
 
 

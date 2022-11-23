@@ -7,7 +7,7 @@ return (<div>
 <div className="navbar">
     
         <MenuOutlinedIcon className='fas fa-bars' fontSize='30px'/>
-        <p id='fountain'> Fountain</p> 
+        <p id='fountain'>Fountain</p> 
         
         <AccountCircleOutlinedIcon className='far fa-user-circle' fontSize='35px'/>
    
@@ -16,20 +16,21 @@ return (<div>
 
      <div className='hidden-Navbar-links' style={{width: '91vw'}}>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-            <a className='navbar-links'><h1 id='name' style={{height: '32px', marginRight: '4rem'}}>Fountain</h1></a>
+            <a className='navbar-links'><h1 id='name'>Fountain</h1></a>
+           
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '30rem'}}>
-                <a className=''>Home</a>
-                <a className=''>Courses</a>
-                <a className=''>Instructors</a>
-                <a className=''>Schedules</a>
-                <a className=''>Contact Us</a>
+                <a className='navbar-links2'>Home</a>
+                <a className='navbar-links2'>Courses</a>
+                <a className='navbar-links2'>Instructors</a>
+                <a className='navbar-links2'>Schedules</a>
+                <a className='navbar-links2'>Contact Us</a>
             </div>
         </div>
      
      
      
      <div className='second-navlink'>
-     <a className=' navbar-links1' id='search'><SearchOutlinedIcon style={{margin:"0px",padding:"0px"}}/></a>
+     <a className=' navbar-links1' > <img src='images/search.svg' id='search'/></a>
      <a className=' navbar-links1' id='login'>Login</a>
      <a className='navbar-links1' id='register'>Register</a>
      </div>
