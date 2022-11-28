@@ -17,22 +17,22 @@ import Onlineexams from "./Onlineexams";
 
 function App() {
   return (
-    <div className='maincontainer'>
+    <div className=''>
     <div className="banner">
   <Navbar/>
   <Banner1/>
   </div>
   <Livechatsection/>
-  <Topcategories/>
+  {/* <Topcategories/> */}
   <Experts/>
-   <All/> {/* This is the section for Explore our popular course  */}
-  <Onlineexams/>
-  <Popular/>
+    <All/> {/*This is the section for Explore our popular course  */}
+  {/* <Onlineexams/> */}
+  {/* <Popular/> */}
   
   <Form/>
-  <Feautured/>
+  {/* <Feautured/> */}
   <Publications/>
-  <Recent/>
+  {/* <Recent/> */}
   <Review/>
   <Footer/>
     </div>

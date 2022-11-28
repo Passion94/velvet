@@ -10,11 +10,13 @@ function Publications(){
 </div>
  <div className="publications-image">
     <img  className="publications-image"src="images/Popular/image1.svg"/>
+    <img  className="publications-block-image"src="images/publication.svg"/>
+
     </div>
     <div  className="publications-container" >
     <div className="publications-text">
-    <h1> Get <span className="student">Publications</span> from best Aurtors around the Globe</h1>
-    <p> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
+    <p> Get <span className="student">Publications</span> from best Aurtors around the Globe</p>
+    <p className="publication-para"> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
     <button className=" buttons expert-button"> Register</button>
     </div>
 

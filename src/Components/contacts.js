@@ -15,7 +15,7 @@ const contacts = [
     {
       id: 2,
       imgURL: "images/Experts/image6.svg",
-      name: "Learn Marketing from Top Instructors.",
+      name: "Front-end development is not hard as you think.",
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
@@ -25,7 +25,7 @@ const contacts = [
     {
       id: 3,
       imgURL: "images/Experts/image7.svg",
-      name: "Learn Marketing from Top Instructors.",
+      name: "Everrything you need to know in UX.",
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
@@ -35,7 +35,7 @@ const contacts = [
     {
       id: 4,
       imgURL: "images/Experts/image8.svg",
-      name: "Learn Marketing from Top Instructors.",
+      name: "Learn photography with ease.",
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
@@ -45,7 +45,7 @@ const contacts = [
     {
       id: 5,
       imgURL: "images/Experts/image9.svg",
-      name: "Learn Marketing from Top Instructors.",
+      name: "Be a pro in data analysis.",
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
@@ -55,7 +55,7 @@ const contacts = [
     {
       id: 6,
       imgURL: "images/Experts/image10.svg",
-      name: "Learn Marketing from Top Instructors.",
+      name: "Ethical Harking is not hard as you think .",
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",

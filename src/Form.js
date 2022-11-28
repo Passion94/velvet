@@ -7,17 +7,18 @@ function Form(){
         <div className="form-section">
 
 
-        <div className="form-dotted-circle"></div>
-        <div className="form-close-circle"></div>
+       
         
 <div classname="form-images">
+<div className="form-dotted-circle"></div>
+        <div className="form-close-circle"></div>
 <img src ="images/Form-image/image1.svg" className="form-image" />
-<img className="form-block-image"src="images/Experts/image3.svg"/>
+<img src="images/Form-image/image2.svg" className="form-block-image" />
 </div>
 
 <div  className="container">
            
-            <form className="form" >
+            <form className="form">
                 <div className="name">
                 <h1 className="enroll">Enroll For A Course Now.</h1>
                 <h1 className="enroll1"> Registration to get notified about new competition and article we publish</h1>
@@ -55,15 +56,15 @@ function Form(){
                 tabIndex="3" 
                 />
                 </div>
-                <select id="rolldown">
-			<option value= "list"> List of courses goes here</option>
-			<option value= "arts">Arts Studies</option>
-			<option value= "education"> Education Studies</option>
-			<option value= "computer"> Computer Science</option>
-			<option value= "management"> Management Education</option>
-			<option value= "health"> Health Sciences</option>
-			<option value= "engineering"> Enginerring</option>
-</select>
+                <select id="rolldown" value="engineering">
+                    <option value="list"> List of courses goes here</option>
+                    <option value="arts">Arts Studies</option>
+                    <option value="education"> Education Studies</option>
+                    <option value="computer"> Computer Science</option>
+                    <option value="management"> Management Education</option>
+                    <option value="health"> Health Sciences</option>
+                    <option value="engineering"> Enginerring</option>
+                </select>
 
                 <input type="submit" value="Register" className=" register"/>
             </form>
