@@ -102,7 +102,7 @@ import Slider from "react-slick";
 
     <div>
        <div className="top-categories-header" >
-            <h1>Feautured Competition</h1>
+            <p>Feautured Competition</p>
          </div>
         <div className="see-all-container">
             <a  className="see-all"href="#"> See all</a>

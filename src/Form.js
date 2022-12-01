@@ -9,7 +9,7 @@ function Form(){
 
        
         
-<div classname="form-images">
+<div className="form-images">
 <div className="form-dotted-circle"></div>
         <div className="form-close-circle"></div>
 <img src ="images/Form-image/image1.svg" className="form-image" />
@@ -19,7 +19,7 @@ function Form(){
 <div  className="container">
            
             <form className="form">
-                <div className="name">
+                <div className=" name">
                 <h1 className="enroll">Enroll For A Course Now.</h1>
                 <h1 className="enroll1"> Registration to get notified about new competition and article we publish</h1>
                     <label className="label"  id="nameLabel" ></label>
@@ -28,7 +28,7 @@ function Form(){
                         type="text" 
                         id="firstName" 
                         name="firstName"
-                        className="firstName" 
+                        className=" placeholders firstName" 
                         placeholder="Full name"
                         tabIndex="1" 
                     />
@@ -39,7 +39,7 @@ function Form(){
                     <input  
                         type="email" 
                         id="email" 
-                        className="email" 
+                        className=" placeholders email" 
                         placeholder="Email"
                         tabIndex="2"  
                     />
@@ -47,7 +47,7 @@ function Form(){
                 <div>
                 <label ></label>
                 <input 
-                type="number" 
+                type="placeholder number" 
                 name="number"
                 id="number"
                 className="number"
@@ -56,17 +56,17 @@ function Form(){
                 tabIndex="3" 
                 />
                 </div>
-                <select id="rolldown" value="engineering">
-                    <option value="list"> List of courses goes here</option>
-                    <option value="arts">Arts Studies</option>
-                    <option value="education"> Education Studies</option>
-                    <option value="computer"> Computer Science</option>
-                    <option value="management"> Management Education</option>
-                    <option value="health"> Health Sciences</option>
-                    <option value="engineering"> Enginerring</option>
+                <select id="rolldown" value="list">
+                    <option className="placeholders" value="list"> List of courses goes here</option>
+                    <option className="placeholders" value="arts">Arts Studies</option>
+                    <option className="placeholders" value="education"> Education Studies</option>
+                    <option className="placeholders" value="computer"> Computer Science</option>
+                    <option className="placeholders" value="management"> Management Education</option>
+                    <option className="placeholders" value="health"> Health Sciences</option>
+                    <option className="placeholders" value="engineering"> Enginerring</option>
                 </select>
 
-                <input type="submit" value="Register" className=" register"/>
+                <input type="submit" value="Register" />
             </form>
         </div>
 </div>
