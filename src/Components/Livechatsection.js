@@ -1,7 +1,6 @@
 
 
 
-
 function Livechatsection(){
     
     return (<div className="live-chat-section-main-container">
@@ -19,6 +18,7 @@ function Livechatsection(){
         <p className='live-chat-section1 competitor'><span><img src="images/competition.svg"/></span><span className="live-chat-text"> Competition</span> </p>
         </div>
         </div>
+        
         </div>
     );
     }

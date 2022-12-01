@@ -23,14 +23,14 @@ function App() {
   <Banner1/>
   </div>
   <Livechatsection/>
-  {/* <Topcategories/> */}
+  <Topcategories/>
   <Experts/>
     <All/> {/*This is the section for Explore our popular course  */}
   {/* <Onlineexams/> */}
-  {/* <Popular/> */}
+  <Popular/>
   
   <Form/>
-  {/* <Feautured/> */}
+  <Feautured/>
   <Publications/>
   {/* <Recent/> */}
   <Review/>

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
+import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,16 +8,16 @@ import Slider from "react-slick";
 
 
 
-
-
-function SampleNextArrow(props) {
+  function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "red" }}
+        // style={{ ...style, display: "flex", background: "#F77E23",fontSize:"200px",height:"50px", width:"50px", borderRadius:"50%", alignItems:"center",color:"red" }}
         onClick={onClick}
-      />
+      >
+      <ChevronRightOutlinedIcon className="previous" fontSize="30px" />
+      </div>
     );
   }
   
@@ -24,9 +26,11 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "green" }}
+        style={{ ...style, display: "block", zIndex:"1" }}
         onClick={onClick}
-      />
+      >
+      <ChevronLeftOutlinedIcon  fontSize="70px" className="next first-arrow"/>
+      </div>
     );
   }
 
@@ -36,29 +40,43 @@ function SampleNextArrow(props) {
 
 
 
-  export default class CustomArrows extends Component {
-    render() {
+  export default function Topcategories()  {
+
+    const settingss = {
+      classname:  "slider variable-width",
+      dots: false,
+      infinite: true,
+      slidesToShow: 4,
+      centerPadding: "60",
+      slidesToScroll: 1,
+      speed: 500,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+      variableWidth: false
+    };
+
       const settings = {
         
         infinite: true,
+       
         
-        slidesToShow: 2,
-        speed: 500,
-        slidesToScroll: 1,
+       
+        
+        
         responsive: [
             {
               breakpoint: 1024,
               settings: {
                 className: "center",
                 centerMode: true,
-            //    centerPadding: "-120px",
+                 
                 slidesToScroll: 1,
+                
                 
                 infinite: true,
                 dots: false,
-                nextArrow: <SampleNextArrow />,
-                prevArrow: <SamplePrevArrow />,
                 
+             
                 
 
               },
@@ -75,7 +93,9 @@ function SampleNextArrow(props) {
                     breakpoint: 480,
                     settings: {
                       slidesToShow: 3,
-                      slidesToScroll: 1
+                      slidesToScroll: 1,
+                      variableWidth: true
+                      
                     }
                   }
       ]
@@ -84,60 +104,85 @@ function SampleNextArrow(props) {
 
     <div>
        <div className="top-categories-header" >
-            <h1> Top Categories</h1>
+            <p> Top Categories</p>
          </div>
         <div className="see-all-container">
             <a  className="see-all"href="#"> See all</a>
         </div>
 
-
-    <Slider {...settings} className="top-categories-image-container">
+<div className=" top-categories-img-sm">
+    <Slider {...settings} >
    
       <div>
-       <img src="images/Topcategories-images/image1.svg"/>
+          <img src="images/Topcategories-images/image1.svg"/>
        <div className="top-image-text"><span className="top-image-marketing-text"> Marketing</span></div>
       </div>
       <div>
-      <img src="images/Topcategories-images/image2.svg"/>
+          <img src="images/Topcategories-images/image2.svg"/>
       </div>
       <div>
-      <img src="images/Topcategories-images/image3.svg"/>
+          <img src="images/Topcategories-images/image3.svg"/>
       </div>
       <div>
-      <img src="images/Topcategories-images/image1.svg"/>
+          <img src="images/Topcategories-images/image1.svg"/>
       <div className="top-image-text"><span className="top-image-marketing-text"> Marketing</span></div>
       </div>
       <div>
-      <img src="images/Topcategories-images/image2.svg"/>
+          <img src="images/Topcategories-images/image2.svg"/>
       </div>
 
     </Slider>
+    </div>
 
 <div className="trying">
-    <Slider {...settings} >
+    <Slider {...settingss} >
    
     <div id="marketing-background-img">
-    <h1 className="marketing-img-text">Marketing</h1>
+    <div className="Top-image-content">
+    <p className="mark">Marketing</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
       </div>
       <div id="design-background-img">
-      <p>Marketing</p>
+    <div className="Top-image-content">
+    <p className="mark">Design</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
       </div>
       <div id="programming-background-img">
-      <p>Marketing</p>
+    <div className="Top-image-content">
+    <p className="mark">Programming</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
       </div>
       <div id="technology-background-img">
-      <p>Marketing</p>
+        <div className="Top-image-content">
+          <p className="mark">Technology</p>
+          <p className="hidecontent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+          </p>
+        </div>
       </div>
       <div id="programming-background-img">
-      
+    <div className="Top-image-content">
+    <p className="mark">Marketing</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
       </div>
  </Slider>
 </div>
 
     </div>
   );
-}}
-
+}
 
 
 
