@@ -366,8 +366,8 @@ text-align: center;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 #all-main-header{
  text-align: center;
