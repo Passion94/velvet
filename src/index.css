@@ -419,7 +419,7 @@ height: 46px;
 }
 .card{
   
-  margin-right: 2PX;
+  /* margin-right: 2PX; */
   border-radius: 10px;
   background-color: white;
   font-size: 12px;
