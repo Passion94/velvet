@@ -57,7 +57,7 @@ import Slider from "react-slick";
           settings: {
             className: "center",
             centerMode: true,
-             
+           
             slidesToScroll: 1,
             slidesToShow: 4,
             infinite: false,
@@ -115,19 +115,19 @@ import Slider from "react-slick";
 <div><img className="popular-image popular-image3" src="images/Popular/image3.svg" style={{heigt:"20%"}}/></div>
 <p className="popular-image-text data-text "> Data Analysis<br/> with Python</p>
 </div>
-<div className=" popular-advanced popular-img-text">
+<div className=" popular-img-text">
 <div ><img className="popular-image popular-image4" src="images/Popular/image4.svg"/></div>
 <p className="popular-image-text advanced-text"> Advanced<br/> UX Designs</p>
 </div>
-<div className=" popular-advanced popular-img-text">
+<div className="  popular-img-text">
 <div ><img className="popular-image popular-image1" src="images/Popular/image1.svg"/></div>
 <p className="popular-image-text advanced-text"> Advanced<br/> UX Designs</p>
 </div>
-<div className=" popular-advanced popular-img-text">
+<div className="  popular-img-text">
 <div ><img className="popular-image popular-image2" src="images/Popular/image1.svg"/></div>
 <p className="popular-image-text advanced-text"> Advanced<br/> UX Designs</p>
 </div>
-<div className=" popular-advanced popular-img-text">
+<div className="  popular-img-text">
 <div ><img className="popular-image popular-image3" src="images/Popular/image1.svg"/></div>
 <p className="popular-image-text advanced-text"> Advanced<br/> UX Designs</p>
 </div>

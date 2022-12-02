@@ -82,7 +82,7 @@ export default class Responsive extends Component {
       ]
     };
     return (
-      <div>
+      <div className='review-main-container'>
         <div className='lgreview-flex-section'>  <div><h2 id="smreview-header"> What Our <span className='student'>Students</span> <br/>Say About Us</h2> </div>  
  
          </div>

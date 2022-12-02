@@ -95,7 +95,7 @@ function Footer(){
 
 
 <div>
-<p> Company</p>
+<p className='bgaddress'> Company</p>
 <a className="sub-link" href="#"> About</a>
 <a className="sub-link" href="#">Features</a>
 <a className="sub-link" href="#">Pricing</a>
@@ -109,7 +109,7 @@ function Footer(){
         </div>
 <div className="bgform-sub-section">
 
-      <input type="text" placeholder="Your Email address" name="Subscribe" className='lgfooter-input' />
+      <input type="text" placeholder="Your Email address" name="Subscribe" className='lgfooter-input' style={{color:"#F77E23"}} />
       <button className="bgsmsub-button">Subscribe</button>
     </div>
 </div>

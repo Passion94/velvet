@@ -46,7 +46,7 @@ import Slider from "react-slick";
   export default function Topcategories()  {
 
     const settingss = {
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 4,
       centerPadding: "60",

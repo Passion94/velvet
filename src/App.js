@@ -32,7 +32,7 @@ function App() {
   <Form/>
   <Feautured/>
   <Publications/>
-  {/* <Recent/> */}
+  <Recent/>
   <Review/>
   <Footer/>
     </div>

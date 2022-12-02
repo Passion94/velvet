@@ -28,8 +28,8 @@ function Publications(){
     <div  className="bgpublications-container" >
 
     <div className="bgpublications-text">
-    <h1> Get <span className="student">Publications</span> from best Aurtors around the Globe</h1>
-    <p> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
+    <p> Get <span className="student">Publications</span> from best Aurtors around the Globe</p>
+    <p className="bgpublication-para"> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
     <button className=" buttons publication-button"> Register</button>
     </div>
 
@@ -38,6 +38,7 @@ function Publications(){
 <div className="smcircle"></div>
 <div className="bgpublications-image">
     <img  className="bgpublications-image"src="images/Popular/image1.svg"/>
+    <img  className="bgpublications-block-image"src="images/publication.svg"/>
     </div>
 </div>
    </div>
