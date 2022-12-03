@@ -10,7 +10,7 @@ function Footer(){
         <div className="">
         <h5 className="sub-update"> Subscribe to get latest Updates</h5>
 <div className="form-sub-section">
-      <input type="text" placeholder="Your Email address" name="Subscribe"/>
+      <input type="text" placeholder="Your Email address" name="Subscribe" className='sminputfoot'/>
       <button className="smsub-button">Subscribe</button>
     </div>
 </div>

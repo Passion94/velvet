@@ -909,12 +909,15 @@ margin-bottom: 0px;
   margin-left: 1rem;
    
 }
+.sminputfoot{
+  margin-left: 0px;
+}
 
 .smsub-button{
   position: absolute;
   top:0px;
-  left: 288px;
-  padding:.90rem;
+  left: 267px;
+  padding:.92rem;
   color: white;
   background-color: #F77E23;
   /* border: 2px solid #F77E23; */
