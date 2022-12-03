@@ -317,8 +317,8 @@ text-align: center;
 }
 
 .close-circle{
-  height: 250px;
-  width: 250px;
+  height: 270px;
+  width: 270px;
   border-radius: 50%;
  background-color:#FFE7DB;
  position: absolute;
@@ -350,10 +350,10 @@ text-align: center;
 #experts-woman-image{
   
   border-radius: 50%;
-  height:430px;
+  height:450px;
   width: 330px;
   position: absolute;
-  top: -65px;
+  top: -87px;
   left:22px;
  
  
@@ -378,8 +378,8 @@ text-align: center;
 }
 #all-main-header{
  text-align: center;
- padding-left: 75px;
- padding-right: 75px;
+ padding-left: 85px;
+ padding-right: 85px;
  color: #333333;
  font-family: Poppins;
  font-size: 24px;
@@ -546,7 +546,8 @@ letter-spacing: 0em;
   height: 250px;
   width: 250px;
   border-radius: 50%;
- background-color:pink;
+ background-color:#FFE7DB;
+ ;
  position: absolute;
  top: 160px;
  left: 60px;
@@ -593,7 +594,7 @@ letter-spacing: 0em;
   top: 180px;
   height: 250px;
   width: 250px;
-  right: 0px;
+  right: -10px;
 }
 .form{
   border-radius: 5px;
@@ -620,7 +621,7 @@ input, select{
  
 }
 
-input[type=text]{
+/* input[type=text]{
   font-family: Poppins;
   font-size: 14px;
   font-weight: 500;
@@ -629,7 +630,7 @@ input[type=text]{
   width: 100%;
   color: #F77E23;
   
- }
+ } */
 input[type=submit] {
   width: 100%;
   background-color:#F77E23;
@@ -903,16 +904,16 @@ margin-bottom: 0px;
 
 .form-sub-section{
   position:relative;
-   width:83%;
+   width:70%;
   align-content: center;
-  margin-left: 1.9rem;
+  margin-left: 1rem;
    
 }
 
 .smsub-button{
   position: absolute;
   top:0px;
-  right: 0px;
+  left: 288px;
   padding:.90rem;
   color: white;
   background-color: #F77E23;
@@ -1044,7 +1045,7 @@ color: #333333;
 
 }
 .online-container{
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .online-arrange{
   
@@ -1055,22 +1056,18 @@ color: #333333;
  color: #333333;
 }
 .online-arrange3{
-  left: -80px;
+  right:50px;
 }
 #online-para{
-  padding: 0px;
-  margin: 0px;
+  /* padding: 0px;
+  margin: 0px; */
 }
 .recent-image-section{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.recent-image{
-  /* height: 200px; */
-  
-  
-}
+
 
 
 
@@ -1862,7 +1859,7 @@ color: #333333;
               line-height: 21px;
               letter-spacing: 0px;            
             }
-
+/* 
 
         .placeholders{
           font-size: 16px;
@@ -1871,7 +1868,7 @@ color: #333333;
           letter-spacing: 0px;
           text-align: left;
           font-family: Open Sans;
-          }
+          } */
          
           .enroll{
             display: none;
@@ -2115,11 +2112,6 @@ font-family: Poppins;
 
 font-weight: 400;
 line-height: 36px;
-
-
-
-
-
 
 }
 
@@ -2448,6 +2440,17 @@ bottom:-90px;
     color: #F77E23;
     
    }
+
+   ::placeholder {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+  }
+
 }
 
 
