@@ -821,7 +821,7 @@ text-align: center;
   color:#F77E23;
   
   position: absolute;
-  bottom: 115px;
+  bottom: 116px;
  right: 50px;
   background-color:white ;
   border-radius: 50% ; 
@@ -911,9 +911,9 @@ margin-bottom: 0px;
 
 .smsub-button{
   position: absolute;
-  top:5px;
+  top:0px;
   right: 0px;
-  padding:.68rem;
+  padding:.90rem;
   color: white;
   background-color: #F77E23;
   /* border: 2px solid #F77E23; */
