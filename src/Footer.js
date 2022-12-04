@@ -105,7 +105,7 @@ function Footer(){
 
 <div className="bgform-suband-form" >
 <div className="bgsub-update">
-<h5> Subscribe to get latest Updates</h5>
+<p> Subscribe to get latest Updates</p>
         </div>
 <div className="bgform-sub-section">
 

@@ -2078,7 +2078,11 @@ margin-top: 100px;
 display: flex;
 color: white;
 justify-content: space-around;
+padding-top: 50px;
 
+}
+.bgsub-update{
+  margin-left: -100px;
 }
 
 .bgform-sub-section{
@@ -2161,7 +2165,13 @@ padding-left: 30px;
 
 .bgfooter-name{
 color: #F77E23;
-font-size: 20px;
+font-family: Source Sans Pro;
+font-size: 33px;
+font-weight: 600;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 .bgfooter-para{
   font-family: Poppins;
@@ -2431,8 +2441,11 @@ bottom:-90px;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    
+    /* margin-right: 100px; */
    }
+  .footer-link a{
+padding-right: 10px;
+  }
    input[type=text]{
     font-family: Poppins;
     font-size: 14px;
