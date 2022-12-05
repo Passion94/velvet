@@ -8,7 +8,7 @@ function Experts(){
 
     
         <div  className="experts-image-and-text-container">
-        <div>
+        <div className="expert-circle-image">
         <div className="dotted-circle"></div>
         <div className="close-circle"></div>
         <div className="experts-image-container">
@@ -22,7 +22,7 @@ function Experts(){
             
             <p> We are <span className="expert-word"> Experts</span> Learning institution</p>
             <p className="expert-textand-button-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit elit, bibendum volutpat platea mi, adipiscing eget magna. Eu nulla ut urna venenatis velit et tincidunt. Id vitae velit  </p>
-            <button className=" buttons expert-button"> Enroll Now</button>
+            <button className=" buttons "> Enroll Now</button>
         
         </div>
     </div>

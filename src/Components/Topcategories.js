@@ -84,8 +84,8 @@ import Slider from "react-slick";
                 
                     breakpoint: 600,
                     settings: {
-                      slidesToShow: 2,
-                      slidesToScroll: 2,
+                      slidesToShow: 4,
+                      slidesToScroll: 1,
                       initialSlide: 2
                     }
                   },
@@ -94,7 +94,8 @@ import Slider from "react-slick";
                     settings: {
                       slidesToShow: 3,
                       slidesToScroll: 1,
-                      variableWidth: true
+                      variableWidth: true,
+                      centerPadding: "60",
                       
                     }
                   }

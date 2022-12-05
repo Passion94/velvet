@@ -9,7 +9,7 @@ function Onlineexams(){
     
         <div  className="experts-image-and-text-container online-container">
 
-        <div className="online-arrange">
+        <div className="online-arrange expert-circle-image">
         <div className="dotted-circle"></div>
         <div className="close-circle"></div>
             <div className="experts-image-container">

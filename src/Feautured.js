@@ -46,6 +46,7 @@ import Slider from "react-slick";
   export default function Topcategories()  {
 
     const settingss = {
+     
       dots: false,
       infinite: true,
       slidesToShow: 4,
@@ -84,8 +85,8 @@ import Slider from "react-slick";
                 
                     breakpoint: 600,
                     settings: {
-                      slidesToShow: 2,
-                      slidesToScroll: 2,
+                      slidesToShow: 4,
+                      slidesToScroll: 1,
                       initialSlide: 2
                     }
                   },
@@ -93,7 +94,9 @@ import Slider from "react-slick";
                     breakpoint: 480,
                     settings: {
                       slidesToShow: 3,
-                      slidesToScroll: 1
+                      slidesToScroll: 1,
+                      // centerPadding:"60",
+                      variableWidth:"true"
                     }
                   }
       ]
