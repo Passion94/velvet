@@ -42,7 +42,7 @@ import Slider from "react-slick";
 
   export default function Topcategories()  {
 
-    const settingss = {
+    const settings = {
       classname:  "slider variable-width",
       dots: false,
       infinite: true,
@@ -52,17 +52,7 @@ import Slider from "react-slick";
       speed: 500,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
-      variableWidth: false
-    };
-
-      const settings = {
-        
-        infinite: true,
-       
-        
-       
-        
-        
+      variableWidth: false,
         responsive: [
             {
               breakpoint: 1024,
@@ -86,13 +76,14 @@ import Slider from "react-slick";
                     settings: {
                       slidesToShow: 4,
                       slidesToScroll: 1,
-                      initialSlide: 2
+                      initialSlide: 2,
+                      variableWidth: true,
                     }
                   },
                   {
                     breakpoint: 480,
                     settings: {
-                      slidesToShow: 3,
+                      slidesToShow: 4,
                       slidesToScroll: 1,
                       variableWidth: true,
                       centerPadding: "60",
@@ -136,7 +127,7 @@ import Slider from "react-slick";
     </div>
 
 <div className="trying">
-    <Slider {...settingss} >
+    <Slider {...settings} >
    
     <div id="marketing-background-img">
     <div className="Top-image-content">

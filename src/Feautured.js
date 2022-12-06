@@ -45,7 +45,7 @@ import Slider from "react-slick";
 
   export default function Topcategories()  {
 
-    const settingss = {
+    const settings = {
      
       dots: false,
       infinite: true,
@@ -54,16 +54,7 @@ import Slider from "react-slick";
       slidesToScroll: 1,
       speed: 500,
       nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
-    };
-
-      const settings = {
-        
-        infinite: true,
-       
-        
-       
-        
+      prevArrow: <SamplePrevArrow />, 
         
         responsive: [
             {
@@ -136,7 +127,7 @@ import Slider from "react-slick";
     </div>
 
 <div className="trying">
-    <Slider {...settingss} >
+    <Slider {...settings} >
    
     <div id="marketing-background-img">
     <div className="Top-image-content">

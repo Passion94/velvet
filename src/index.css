@@ -639,16 +639,7 @@ input, select{
  
 }
 
-/* input[type=text]{
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0em;
-  width: 100%;
-  color: #F77E23;
-  
- } */
+
 input[type=submit] {
   width: 100%;
   background-color:#F77E23;
@@ -1089,10 +1080,113 @@ color: #333333;
   align-items: center;
   flex-wrap: wrap;
 }
-
+.previous{
+  display: none;
+  visibility: hidden;
+}
+.next{
+  display: none;
+  visibility: hidden;
+}
 
 @media screen and (min-width: 480px ) {
+  .smsub-button{
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    padding-top: 13px;
+    border: null;
+    
+  }
+  .form-sub-section{
+    margin-left: 40px;
+    width: 83%;
+  }
+  .Expandcircledown2{
+    position: relative;
+    bottom: 60px;
+    right: 0px;
+  }
+  .Expandcircledown1{
+    position: relative;
+    top: -170px;
+    right: 100px;
+  }
+ 
+  .publications-image{
+    position: absolute;
+    top: 40px;
+    
+    
+  }
+  .online-arrange1{
+    position: relative;
+    left:200px;
+    
+    margin: 0px;
+    margin-top: 100px;
+  }
+  .online-dotted{
+    position: absolute;
+    left: 0px;
+  }
+  .online-close{
+    position: absolute;
+    left: 32px;
+  }
+  .experts-image-container{
+    position: relative;
+    left: -20px;
+  }
+  .form-images{
+    position: relative;
+    left: 40px;
+  }
+  .form-block-image{
+    position: absolute;
+    right: 40px;
+  }
 
+  input, select{
+    width: 100%;
+    padding: 12px 20px;
+    
+    display: block;
+    border: 0.75859px solid rgba(0, 0, 0, 0.1); 
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color:gainsboro; 
+    
+    /* height: 59.65696334838867px;
+    width: 524.4232788085938px;
+    left: -0.0003662109375px;
+    top: -0.000244140625px;
+    border-radius: 5.32651424407959px;
+    background: #FAFAFC;
+    cursor: auto;
+    margin: 34px 32px;
+    font-family: Open Sans; */
+    }
+    
+  input[type=text]{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  width: 100%;
+  color: #F77E23;
+  
+ }
+.previous{
+  
+  visibility: hidden;
+}
+.next{
+  
+  visibility: hidden;
+}
 .expert-container{
 height: 900px;
 }
@@ -1121,11 +1215,67 @@ height: 900px;
   left: 0px;
 }
 
+
+}
+@media screen and (min-width: 600px) {
+  .pub-img-circle{
+    position: relative;
+    left: 90px;
+  }
+  /* .circle{
+    margin-left: 80px;
+  } */
+  .bgpublications-image{
+    margin-left: 80px;
+  }
+
+  .Expandcircledown2{
+    position: absolute;
+    /* right: 100px; */
+    top: -55px;
+    
+    margin-left: 100px;
+    
+  }
+  .Expandcircledown1{
+    position: absolute;
+    /* right: 100px; */
+    top: -111px;
+   
+    margin-left: 100px;
+    
+  }
+  .smsub-button{
+    margin-left: 59px;
+  }
+  .form-sub-section{
+    width: 77%;
+    margin-left: 70px;
+  }
+
+ 
+  .expert-circle-image{
+    position: relative;
+    left: 100px;
+  }
+  .online-arrange1{
+    position: relative;
+    left:-70px;
+  }
+  
 }
 
 
 
 @media screen and (min-width: 1024px) {
+  .previous{
+    
+    visibility: visible;
+  }
+  .next{
+  
+    visibility: visible;
+  }
   .popular-arrow{
    
     visibility: visible;
@@ -1920,16 +2070,7 @@ height: 900px;
               line-height: 21px;
               letter-spacing: 0px;            
             }
-/* 
 
-        .placeholders{
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 21px;
-          letter-spacing: 0px;
-          text-align: left;
-          font-family: Open Sans;
-          } */
          
           .enroll{
             display: none;
@@ -2007,7 +2148,7 @@ height: 900px;
     width: 350px;
     position: relative;
     bottom: 375px;
-    left: 27px;
+    left: -55px;
   }
   
  
@@ -2168,7 +2309,7 @@ text-align: left;
 
 position: absolute;
 top:4px;
-right: 48px;
+right: 0px;
 padding:.60rem;
 padding-top: 8px;
 width: 20%;
@@ -2326,10 +2467,10 @@ color: #F77E23;
   font-size:50px;
  
   color:#F77E23;
-  
+  margin: 0px;
   position: absolute;
-  bottom: -164px;
-  left: -1150px;
+ top: 100px;
+  left: -1100px;
   background-color:white ;
   border-radius: 50% ; 
   border: 1px solid #F77E23;
@@ -2338,10 +2479,10 @@ color: #F77E23;
   font-size:50px;
  
   color:#F77E23;
-
+  margin: 0px;
   position: absolute;
-  bottom: -310px;
-  left: -290px;
+  top: 225px;
+  left: -300px;
   background-color: white ;
   border-radius: 50% ;
   border: 1px solid #F77E23;
@@ -2514,6 +2655,7 @@ padding-right: 10px;
     letter-spacing: 0em;
     text-align: left;
     color: #F77E23;
+    width: 88%;
     
    }
 

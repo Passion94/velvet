@@ -4,6 +4,7 @@ function Publications(){
     return(
         <div className="publications-main-container">
 <div className="publication-section">
+<div className="pub-img-circle">
         <div className="circle">
 <div className="bg-circle"></div>
 <div className="sm-circle"></div>
@@ -11,7 +12,7 @@ function Publications(){
  <div className="publications-image">
     <img  className="publications-image"src="images/Popular/image1.svg"/>
     <img  className="publications-block-image"src="images/publication.svg"/>
-
+    </div>
     </div>
     <div  className="publications-container" >
     <div className="publications-text">
