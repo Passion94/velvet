@@ -107,7 +107,7 @@ import Slider from "react-slick";
    
       <div>
           <img src="images/Topcategories-images/image1.svg"/>
-       <div className="top-image-text"><span className="top-image-marketing-text"> Marketing</span></div>
+       <div className="top-image-text"><span className="top-image-marketing-text"> Marketing </span></div>
       </div>
       <div>
           <img src="images/Topcategories-images/image2.svg"/>

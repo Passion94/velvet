@@ -1002,7 +1002,7 @@ bottom: 0px;
   color:#FFFFFF;
   position: absolute;
   top: 53px;
-  padding-left: 20px;
+  padding-left: 10px;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -1026,9 +1026,9 @@ bottom: 0px;
   display: none;
 }
 
-.trying{
+/* .trying{
   display: none;
-}
+} */
 .slick-slide > div {
   margin: 0 10px;
 }
@@ -1087,6 +1087,70 @@ color: #333333;
 .next{
   display: none;
   visibility: hidden;
+}
+/* .slide-flex-topsm-image{
+  background-color: red;
+  display: flex;
+} */
+.hidecontent{
+  display: none;
+}
+#marketing-background-img{
+  background-image:url("../public/images/Topcategories-images/imagelg1.svg");
+  height: 170px;
+  /* width:150px; */
+  background-color: black;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+
+#design-background-img{
+  background-image:url("../public/images/Topcategories-images/img1.png");
+  height: 170px;
+  /* width: 25%; */
+  background-color:black;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../public/images/Topcategories-images/img1.png"); */
+  position: relative;
+}
+#programming-background-img{
+  /* background-image:url("../public/images/Topcategories-images/img3.png"); */
+  height: 170px;
+  /* width: 25%; */
+  background-color: black;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../public/images/Topcategories-images/img3.png");
+  position: relative;
+}
+
+#technology-background-img{
+  background-image:url("../public/images/Topcategories-images/imagelg4.png");
+  height: 170px;
+  /* width: 25%; */
+  background-color: black;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Top-image-content {
+  padding: 0.8rem;
+  /* height: 305px; */
+  position: relative;
+  /* overflow: hidden; */
+  color: white;
+  justify-content: center;
+ 
+}
+.mark{
+  position: absolute;
+  top: 43px;
 }
 
 @media screen and (min-width: 480px ) {

@@ -89,6 +89,16 @@ import Slider from "react-slick";
                       centerPadding: "60",
                       
                     }
+                  },
+                  {
+                    breakpoint: 411,
+                    settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1,
+                      variableWidth: false
+                      // centerPadding: "60",
+                      
+                    }
                   }
       ]
               }
@@ -102,7 +112,7 @@ import Slider from "react-slick";
             <a  className="see-all"href="#"> See all</a>
         </div>
 
-<div className=" top-categories-img-sm">
+{/* <div className=" top-categories-img-sm slide-flex-topsm-image">
     <Slider {...settings} >
    
       <div>
@@ -117,14 +127,23 @@ import Slider from "react-slick";
       </div>
       <div>
           <img src="images/Topcategories-images/image1.svg"/>
-      <div className="top-image-text"><span className="top-image-marketing-text"> Marketing</span></div>
+      <div className="top-image-text"><span className="top-image-marketing-text"> Design</span></div>
       </div>
       <div>
-          <img src="images/Topcategories-images/image2.svg"/>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> cooking</span></div>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> Programming</span></div>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> Health and Care</span></div>
       </div>
 
     </Slider>
-    </div>
+    </div> */}
 
 <div className="trying">
     <Slider {...settings} >
