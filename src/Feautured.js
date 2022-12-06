@@ -1,6 +1,3 @@
-
-
-
 import React, { Component } from "react";
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
@@ -43,19 +40,19 @@ import Slider from "react-slick";
 
 
 
-  export default function Topcategories()  {
+  export default function Featured()  {
 
     const settings = {
-     
+      classname:  "slider variable-width",
       dots: false,
-      infinite: true,
+      infinite: false,
       slidesToShow: 4,
       centerPadding: "60",
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       speed: 500,
       nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />, 
-        
+      prevArrow: <SamplePrevArrow />,
+      variableWidth: false,
         responsive: [
             {
               breakpoint: 1024,
@@ -63,11 +60,12 @@ import Slider from "react-slick";
                 className: "center",
                 centerMode: true,
                  
-                slidesToScroll: 1,
+                slidesToScroll: 3,
                 
                 
-                infinite: true,
+                infinite: false,
                 dots: false,
+                
              
                 
 
@@ -78,7 +76,8 @@ import Slider from "react-slick";
                     settings: {
                       slidesToShow: 4,
                       slidesToScroll: 1,
-                      initialSlide: 2
+                      initialSlide: 2,
+                      variableWidth: true,
                     }
                   },
                   {
@@ -86,8 +85,19 @@ import Slider from "react-slick";
                     settings: {
                       slidesToShow: 3,
                       slidesToScroll: 1,
-                      // centerPadding:"60",
-                      variableWidth:"true"
+                      variableWidth: false,
+                      // centerPadding: "60",
+                      
+                    }
+                  },
+                  {
+                    breakpoint: 411,
+                    settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1,
+                      variableWidth: false,
+                      centerPadding: "60"
+                      
                     }
                   }
       ]
@@ -96,13 +106,141 @@ import Slider from "react-slick";
 
     <div>
        <div className="top-categories-header" >
-            <p>Feautured Competition</p>
+            <p> Featured Competition</p>
          </div>
         <div className="see-all-container">
             <a  className="see-all"href="#"> See all</a>
         </div>
 
-<div className=" top-categories-img-sm">
+{/* <div className=" top-categories-img-sm slide-flex-topsm-image">
+    <Slider {...settings} >
+   
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+       <div className="top-image-text"><span className="top-image-marketing-text"> Marketing</span></div>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image2.svg"/>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image3.svg"/>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> Design</span></div>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> cooking</span></div>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> Programming</span></div>
+      </div>
+      <div>
+          <img src="images/Topcategories-images/image1.svg"/>
+      <div className="top-image-text"><span className="top-image-marketing-text"> Health and Care</span></div>
+      </div>
+
+    </Slider>
+    </div> */}
+
+<div className="trying">
+    <Slider {...settings} >
+   
+    <div id="marketing-background-img">
+    <div className="Top-image-content ftic">
+    <p className="mark ftic">Marketing Contest</p>
+    <p className="hidecontent">
+    <p> The Future Economy</p>
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+    </div>
+      </div>
+      <div id="design-background-img">
+    <div className="Top-image-content">
+    <p className="mark ftic"> UI/UX Design Contest</p>
+    <p className="hidecontent">
+    <p> Accessibilty in design</p>
+    
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+    </div>
+      </div>
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark ftic">Programming Contest</p>
+    <p className="hidecontent">
+    <p> The Future of AI</p>
+          
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+    </div>
+      </div>
+      <div id="technology-background-img">
+        <div className="Top-image-content">
+          <p className="mark ftic">Photography<br/> Contest</p>
+          <p className="hidecontent">
+          <p> The Beauty of Art</p>
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+        </div>
+      </div>
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark ftic">Biology <br/>Contest</p>
+    <p className="hidecontent">
+    <p> Our Nature</p>
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+    </div>
+      </div>
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark ftic">Data Analysis Contest</p>
+    <p className="hidecontent">
+    <p> Comparative Data</p>
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+    </div>
+      </div>
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark ftic">Content Writing<br/> Contest</p>
+    <p className="hidecontent">
+    <p> The Magic Pen</p>
+    <p><span>Eligibelity:</span>  for designers</p>
+    <p><span>Price:</span> $60</p>
+    <p><span>Deadline:</span>  26/8/2022</p>
+    </p>
+    </div>
+      </div>
+ </Slider>
+</div>
+
+    </div>
+  );
+}
+
+
+
+
+
+
+
+{/* <div className=" top-categories-img-sm">
     <Slider {...settings} >
    
       <div>
@@ -124,9 +262,9 @@ import Slider from "react-slick";
       </div>
 
     </Slider>
-    </div>
+    </div> */}
 
-<div className="trying">
+{/* <div className="trying">
     <Slider {...settings} >
    
     <div id="marketing-background-img">
@@ -183,66 +321,11 @@ import Slider from "react-slick";
       </div>
  </Slider>
 </div>
-
-    </div>
-  );
-}
+*/}
+ 
 
 
 
-//     function Topcategories(){
-//      return (
-//     <div className="top-categories-section" >
-//         <div className="top-categories-header" >
-//             <h1> Top Categories</h1>
-//         </div>
-//         <div className="see-all-container">
-//             <a  className="see-all"href="#"> See all</a>
-          
-            
-//         </div>
-//         <div className="  carousal-section">
-//         <div>
-//         <img className="carousal carousal1" src="images/carousal1.svg"/>
-//         </div>
-//         <div>
-//         <img className="carousal carousal2" src="images/carousal2.svg"/> 
-//         </div>
-//         </div>
-        
-//         <div className="top-categories-img-lg">
-//         <div className="top-large-images" id="marketing-background-img"><p className="marketing-img-text">Marketing</p> </div>
-//         <div className="top-large-images" id="design-background-img"><p className="marketing-img-text">Design</p></div>
-//         <div className="top-large-images" id="programming-background-img"><p className="marketing-img-text">Programming</p></div>
-//         <div className="top-large-images" id="technology-background-img"> <p className="marketing-img-text technology-img">Technology</p></div>
-//         </div>
-        
-        
-//     <div className="top-categories-image-container">
-
-
-//         <div className="marketing-image-section">
-//              <img src="images/Topcategories-images/image1.svg"/> 
-//         <div className="top-image-text"><span className="top-image-marketing-text"> Marketing</span></div>
-//         </div>
-//         <div>
-//             <img src="images/Topcategories-images/image2.svg"/> 
-//         </div>
-//         <div>
-//             <img src="images/Topcategories-images/image3.svg"/> 
-//         </div>
-//         <div>
-//         <img src="images/Topcategories-images/image4.svg"/> 
-//         </div>
-//         </div>
-
-
-//         </div>
-
-
-//     );
-// }
-// export default Topcategories;
 
 
 

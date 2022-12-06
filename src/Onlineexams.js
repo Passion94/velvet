@@ -1,7 +1,7 @@
 
 function Onlineexams(){
     return(
-    <div className='expert-container'>
+    <div className='expert-container' id="online-main-container">
 
 
 
@@ -12,7 +12,7 @@ function Onlineexams(){
         <div className="online-arrange expert-circle-image">
         <div className="dotted-circle online-dotted"></div>
         <div className="close-circle online-close"></div>
-            <div className="experts-image-container">
+            <div className="experts-image-container online-image-container">
             <img id="experts-woman-image" src="images//online.svg" />
             <img className="expert-block-image online-arrange3"src="images/Experts/onlineblock.svg"/>
             </div>

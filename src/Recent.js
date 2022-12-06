@@ -111,7 +111,7 @@ export default class Responsive extends Component {
 
   
     return (
-      <div>
+      <div className="everything-recent">
         <p className="top-categories-header recent-header"> Recent Publications </p>
         <div className="see-all-container">
          <a className="see-all" href="#"> See all</a>
