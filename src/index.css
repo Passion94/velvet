@@ -315,7 +315,7 @@ text-align: center;
    background: rgb(255,251,247);
   background: radial-gradient(circle, rgba(255,251,247,1) 74%, rgba(255,228,211,1) 100%, rgba(255,228,211,1) 100%);
    backdrop-filter: blur(200px); 
-   height: 165vh;
+   height: 900px;
    margin-bottom: 100px;
        
  
