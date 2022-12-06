@@ -47,7 +47,7 @@ import Slider from "react-slick";
       infinite: false,
       slidesToShow: 4,
       centerPadding: "60",
-      slidesToScroll: 1,
+      slidesToScroll: 4,
       speed: 500,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
@@ -121,11 +121,15 @@ import Slider from "react-slick";
 </div>
 <div className="  popular-img-text">
 <div ><img className="popular-image popular-image1" src="images/Popular/image1.svg"/></div>
-<p className="popular-image-text advanced-text"> Advanced<br/> UX Designs</p>
+<p className="popular-image-text advanced-text">  Data Analysis<br/> with Python</p>
 </div>
 <div className="  popular-img-text">
 <div ><img className="popular-image popular-image2" src="images/Popular/image1.svg"/></div>
-<p className="popular-image-text advanced-text"> Advanced<br/> UX Designs</p>
+<p className="popular-image-text advanced-text"> Game<br/> Development</p>
+</div>
+<div className="  popular-img-text">
+<div ><img className="popular-image popular-image3" src="images/Popular/image1.svg"/></div>
+<p className="popular-image-text advanced-text"> Marketing<br/> Strategy</p>
 </div>
 <div className="  popular-img-text">
 <div ><img className="popular-image popular-image3" src="images/Popular/image1.svg"/></div>

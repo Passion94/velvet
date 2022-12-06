@@ -45,10 +45,10 @@ import Slider from "react-slick";
     const settings = {
       classname:  "slider variable-width",
       dots: false,
-      infinite: true,
+      infinite: false,
       slidesToShow: 4,
       centerPadding: "60",
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       speed: 500,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
@@ -60,10 +60,10 @@ import Slider from "react-slick";
                 className: "center",
                 centerMode: true,
                  
-                slidesToScroll: 1,
+                slidesToScroll: 3,
                 
                 
-                infinite: true,
+                infinite: false,
                 dots: false,
                 
              
@@ -163,7 +163,23 @@ import Slider from "react-slick";
       </div>
       <div id="programming-background-img">
     <div className="Top-image-content">
-    <p className="mark">Marketing</p>
+    <p className="mark">Cooking</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
+      </div>
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark">Health and Care</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
+      </div>
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark">Photography</p>
     <p className="hidecontent">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
     </p>
