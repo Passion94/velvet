@@ -1322,6 +1322,7 @@ height: 900px;
   .pub-img-circle{
     position: relative;
     left: 90px;
+    margin-bottom: -220px;
   }
   /* .circle{
     margin-left: 80px;
@@ -2621,8 +2622,9 @@ background-color:#F77E23;
 font-size: 50px;
 border-radius: 50%;
 position: relative;
-left: 600px;
-bottom:-90px;
+left: 640px;
+bottom:-20px;
+display: block;
 
 
 }
