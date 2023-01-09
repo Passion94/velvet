@@ -16,7 +16,7 @@ function Publications(){
     </div>
     <div  className="publications-container" >
     <div className="publications-text">
-    <p> Get <span className="student">Publications</span> from best Aurtors around the Globe</p>
+    <p> Get <span className="student public">Publications</span> from best Aurtors around the Globe</p>
     <p className="publication-para"> Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.  pharetra. Aliquam.</p>
     <button className=" buttons expert-button"> Register</button>
     </div>

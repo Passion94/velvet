@@ -16,7 +16,7 @@ function Card(props) {
         <p >{props.name}</p>
         </div>
         <div className="rate" >
-        <StarBorderIcon className="icons people" fontSize="15px"/>
+        <StarBorderIcon className="icons people" fontSize="10px"/>
         <Details detailInfo={props.rate} />
         </div>
       
@@ -37,3 +37,19 @@ function Card(props) {
 }
 
 export default Card;
+
+{/* <Avatar img={props.img} />
+
+<p>{props.name}</p>
+
+<StarBorderIcon />
+
+<Details detailInfo={props.rate} />
+
+<Details detailInfo={props.weeks}/>
+
+<PeopleAltOutlinedIcon /> 
+
+<Details detailInfo={props.numberofstudents}/>
+
+<Details detailInfo={props.price}/> */}

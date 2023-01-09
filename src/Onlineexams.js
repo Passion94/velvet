@@ -18,7 +18,7 @@ function Onlineexams(){
             </div>
         <div className="expert-textand-button online-arrange1">
             
-            <p> Our online <br/><span className="student"> examination</span> is<br/> top-notch</p>
+            <p> Our online <br/><span className="student"> examination</span> is top-<br/> notch</p>
             <p className="expert-textand-button-para " id="online-para"> Prepare your self for greater challenges with our online examination. </p>
             <button className="buttons "> Take a test</button>
         

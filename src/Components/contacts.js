@@ -8,7 +8,8 @@ const contacts = [
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
-      price: "30.55$"
+      price: "30.55$",
+     
 
     },
     
@@ -19,7 +20,8 @@ const contacts = [
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
-      price: "30.55$"
+      price: "30.55$",
+      
 
     },
     {
@@ -29,7 +31,8 @@ const contacts = [
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
-      price: "30.55$"
+      price: "30.55$",
+     
 
     },
     {
@@ -39,7 +42,8 @@ const contacts = [
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
-      price: "30.55$"
+      price: "30.55$",
+     
 
     },
     {
@@ -49,7 +53,8 @@ const contacts = [
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
-      price: "30.55$"
+      price: "30.55$",
+      
 
     },
     {
@@ -59,7 +64,8 @@ const contacts = [
       rate: "4.5",
       weeks: "6 weeks",
       numberofstudents:"1.5k Students",
-      price: "30.55$"
+      price: "30.55$",
+      
 
     }
    

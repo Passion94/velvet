@@ -14,6 +14,9 @@ import Recent from "./Recent";
 import Review from "./Review";
 import Footer from "./Footer";
 import Onlineexams from "./Onlineexams";
+import "./480.css"
+import "./600.css"
+import "./1024.css"
 
 function App() {
   return (

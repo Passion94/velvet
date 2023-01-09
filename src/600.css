@@ -1,0 +1,61 @@
+@media screen and (min-width: 600px) {
+    .experts-image-container{
+      position: relative;
+      left: 10px;
+      top: 15px;
+  
+    }
+    .pub-img-circle{
+      position: relative;
+      left: 90px;
+      margin-bottom: -220px;
+    }
+    /* .circle{
+      margin-left: 80px;
+    } */
+    .bgpublications-image{
+      margin-left: 80px;
+    }
+  
+    .Expandcircledown2{
+      position: absolute;
+      /* right: 100px; */
+      top: -55px;
+      
+      margin-left: 100px;
+      
+    }
+    .Expandcircledown1{
+      position: absolute;
+      /* right: 100px; */
+      top: -111px;
+     
+      margin-left: 100px;
+      
+    }
+    .smsub-button{
+      margin-left: 59px;
+    }
+    .form-sub-section{
+      width: 77%;
+      margin-left: 70px;
+    }
+  
+   
+    .expert-circle-image{
+      position: relative;
+      left: 100px;
+    }
+    .online-arrange1{
+      position: relative;
+      left:-70px;
+    }
+    .online-image-container{
+      position: relative;
+      left: -20px;
+      top: 0px;
+    }
+    
+  }
+  
+  

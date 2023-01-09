@@ -1,0 +1,126 @@
+@media screen and (min-width: 480px ) {
+    .smsub-button{
+      margin: 0px;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 16px;
+      padding-top: 13px;
+      border: null;
+      
+    }
+    .form-sub-section{
+      margin-left: 40px;
+      width: 83%;
+    }
+    .Expandcircledown2{
+      position: relative;
+      bottom: 60px;
+      right: 0px;
+    }
+    .Expandcircledown1{
+      position: relative;
+      top: -170px;
+      right: 100px;
+    }
+   
+    .publications-image{
+      position: absolute;
+      top: 40px;
+      
+      
+    }
+    .online-arrange1{
+      position: relative;
+      left:200px;
+      
+      margin: 0px;
+      margin-top: 100px;
+    }
+    .online-dotted{
+      position: absolute;
+      left: 0px;
+    }
+    .online-close{
+      position: absolute;
+      left: 32px;
+    }
+    .experts-image-container{
+      position: relative;
+      left: -20px;
+    }
+    .form-images{
+      position: relative;
+      left: 40px;
+    }
+    .form-block-image{
+      position: absolute;
+      right: 40px;
+    }
+  
+    input, select{
+      width: 100%;
+      padding: 12px 20px;
+      
+      display: block;
+      border: 0.75859px solid rgba(0, 0, 0, 0.1); 
+      border-radius: 3px;
+      box-sizing: border-box;
+      background-color:gainsboro; 
+      
+      /* height: 59.65696334838867px;
+      width: 524.4232788085938px;
+      left: -0.0003662109375px;
+      top: -0.000244140625px;
+      border-radius: 5.32651424407959px;
+      background: #FAFAFC;
+      cursor: auto;
+      margin: 34px 32px;
+      font-family: Open Sans; */
+      }
+      
+    input[type=text]{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    width: 100%;
+    color: #F77E23;
+    
+   }
+  .previous{
+    
+    visibility: hidden;
+  }
+  .next{
+    
+    visibility: hidden;
+  }
+  .expert-container{
+  height: 900px;
+  }
+  .expert-circle-image{
+    position: relative;
+    left: 50px;
+  }
+  .online-arrange1{
+    position: relative;
+    left: -40px;
+    padding-right: 100px;
+  }
+  .circle{
+    position: relative;
+    left: 30px;
+  }
+  .publications-image{
+    position: relative;
+    left: 53px;
+  }
+  
+  .online-container{
+    position:relative ;
+    left: 0px;
+  }
+  
+  
+  }

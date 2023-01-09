@@ -83,10 +83,10 @@ import Slider from "react-slick";
                   {
                     breakpoint: 480,
                     settings: {
-                      slidesToShow: 3,
+                      slidesToShow: 4,
                       slidesToScroll: 1,
-                      variableWidth: false,
-                      // centerPadding: "60",
+                      variableWidth: true,
+                      centerPadding: "10",
                       
                     }
                   },
@@ -95,8 +95,9 @@ import Slider from "react-slick";
                     settings: {
                       slidesToShow: 3,
                       slidesToScroll: 1,
-                      variableWidth: false,
-                      centerPadding: "60"
+                      variableWidth:false,
+                      centerPadding: "60",
+                      // centerMode: false
                       
                     }
                   }
@@ -119,15 +120,45 @@ import Slider from "react-slick";
    
     <div id="marketing-background-img">
     <div className="Top-image-content">
-    <p className="mark">Marketing</p>
+    <p className="mark market">Marketing</p>
     <p className="hidecontent">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
     </p>
     </div>
       </div>
+
+      <div id="technology-background-img">
+        <div className="Top-image-content">
+          <p className="mark tech">Technology</p>
+          <p className="hidecontent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+          </p>
+        </div>
+      </div>
+
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark">Photography</p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
+      </div>
+
+
       <div id="design-background-img">
     <div className="Top-image-content">
-    <p className="mark">Design</p>
+    <p className="mark desi">Design </p>
+    <p className="hidecontent">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
+    </p>
+    </div>
+      </div>
+    
+      
+      <div id="programming-background-img">
+    <div className="Top-image-content">
+    <p className="mark cook">Cooking</p>
     <p className="hidecontent">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
     </p>
@@ -141,38 +172,16 @@ import Slider from "react-slick";
     </p>
     </div>
       </div>
-      <div id="technology-background-img">
-        <div className="Top-image-content">
-          <p className="mark">Technology</p>
-          <p className="hidecontent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
-          </p>
-        </div>
-      </div>
+
       <div id="programming-background-img">
     <div className="Top-image-content">
-    <p className="mark">Cooking</p>
+    <p className="mark health">Health and <span id="care">Care</span> </p>
     <p className="hidecontent">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
     </p>
     </div>
       </div>
-      <div id="programming-background-img">
-    <div className="Top-image-content">
-    <p className="mark">Health and Care</p>
-    <p className="hidecontent">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
-    </p>
-    </div>
-      </div>
-      <div id="programming-background-img">
-    <div className="Top-image-content">
-    <p className="mark">Photography</p>
-    <p className="hidecontent">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim commodo lectus, ut convallis erat sodales eget. Aliquam malesuada est at hendrerit porttitor. Etiam placerat, sem non rhoncus laoreet, dolor nibh varius lectus, in dignissim nulla felis eget odio. Curabitur.
-    </p>
-    </div>
-      </div>
+   
  </Slider>
 </div>
 

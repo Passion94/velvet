@@ -150,7 +150,7 @@ import Slider from "react-slick";
    
     <div id="marketing-background-img">
     <div className="Top-image-content ftic">
-    <p className="mark ftic">Marketing Contest</p>
+    <p className="mark ftic markc">Marketing Contest</p>
     <p className="hidecontent">
     <p> The Future Economy</p>
     <p><span>Eligibelity:</span>  for designers</p>

@@ -27,7 +27,7 @@ function Footer(){
 
 
 <div>
-<p> Company</p>
+<p className='address'> Company</p>
 <a className="sub-link" href="#"> About</a>
 <a className="sub-link" href="#">Features</a>
 <a className="sub-link" href="#">Pricing</a>
@@ -37,9 +37,9 @@ function Footer(){
 <div className='down-footer'>
 <p className='footer-name'> Fountain</p>
 <div className='footer-link'>
-<a href=""><FacebookOutlinedIcon className='fa'/></a>
-<a href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
-<a href=""> <CameraAltOutlinedIcon className='fa'/></a>
+<a href=""><FacebookOutlinedIcon className='fa' fontSize='25px'/></a>
+<a className='twiter-background' href=""><i className="fa fa-twitter w3-hover-opacity"></i></a>
+<a href=""> <CameraAltOutlinedIcon className='fa insta' fontSize='25px'/></a>
 <a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 </div>
 </div>
