@@ -77,7 +77,8 @@ function Footer(){
 <p className="bgfooter-para"> We are not here to sell you <br/> products, we sell value through<br/> our expertise.</p>
 <div className='footer-link'>
 <a href=""><FacebookOutlinedIcon className='fa'/></a>
-<a href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
+
+<a className='twiter-background'href=""><i class="fa fa-twitter w3-hover-opacity"></i></a>
 <a href=""> <CameraAltOutlinedIcon className='fa'/></a>
 <a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 </div>
@@ -87,14 +88,14 @@ function Footer(){
 
 
 <div className="bgfooter-sub-section-one">
-<p><span className="bgaddress"> Address:</span><br/>38 opebi Road, Ikeja, Lagos <br/>State, Nigeia.</p>
-<p><span className="bgaddress">Phone:</span><br/> +2349022396389</p>
-<p><span className="bgaddress">Email:</span><br/>contact@contentionary.com</p>
+<p className='get'><span className="bgaddress"> Address:</span><br/>38 opebi Road, Ikeja, Lagos State, Nigeria.</p>
+<p className='get'><span className="bgaddress">Phone:</span><br/> +2349022396389</p>
+<p className='get'><span className="bgaddress">Email:</span><br/>contact@contentionary.com</p>
 </div>
 
 
 
-<div>
+<div className='bgfooter-last-flex'>
 <p className='bgaddress'> Company</p>
 <a className="sub-link" href="#"> About</a>
 <a className="sub-link" href="#">Features</a>

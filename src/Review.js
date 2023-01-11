@@ -14,7 +14,7 @@ function SampleNextArrow(props) {
         // style={{ ...style, display: "flex", background: "#F77E23",fontSize:"200px",height:"50px", width:"50px", borderRadius:"50%", alignItems:"center",color:"red" }}
         onClick={onClick}
       >
-      <ChevronRightOutlinedIcon className=" Expandcircledown1"  fontSize="30px" />
+      <ChevronRightOutlinedIcon className=" Expandcircledown1 mtcheew "  fontSize="30px" />
       </div>
     );
   }
@@ -27,7 +27,7 @@ function SampleNextArrow(props) {
         style={{ ...style, display: "block", zIndex:"1" }}
         onClick={onClick}
       >
-      <ChevronLeftOutlinedIcon  fontSize="70px" className=" Expandcircledown2 "/>
+      <ChevronLeftOutlinedIcon  fontSize="70px" className=" Expandcircledown2 mtcheew "/>
       </div>
     );
   }
@@ -45,7 +45,7 @@ export default class Responsive extends Component {
   render() {
     const settings = {
       dots: false,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 2,
       slidesToScroll: 2,
@@ -59,7 +59,7 @@ export default class Responsive extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            infinite: true,
+            infinite: false,
             dots: false,
             
           }
@@ -90,7 +90,7 @@ export default class Responsive extends Component {
        <div> <h1 id="hidereview-header"> Reviews</h1>       </div>
 <div className='review-flex-container'>
        <div className="one">
-            <h2 id="lgreview-header"> What Our <br/><span className='student'>Students</span> Say<br/> About Us</h2>
+            <h2 id="lgreview-header"> What Our <br/><span className='student students'>Students</span> Say<br/> About Us</h2>
             
             
             </div>
@@ -103,7 +103,7 @@ export default class Responsive extends Component {
          
         <div className="two">
        
-               <div className="sub-flex-container">
+               <div className="sub-flex-container jumah">
        
                  <div>
                        <img className='review-image'  src="images/Reviews/image1.svg"/>
@@ -118,12 +118,12 @@ export default class Responsive extends Component {
        
               
                <div>
-                   <p className='review-para' > Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
+                   <p className='review-para' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis  </p>
                </div>
                </div>
          
                <div className="three">
-        <div className="sub-flex-container">
+        <div className="sub-flex-container john">
         <div> 
         <img className='review-image' src="images/Reviews/image2.svg"/> 
         </div> 
@@ -132,9 +132,59 @@ export default class Responsive extends Component {
             </div>        
             </div>
             <div>
-            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
+            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis  </p>
             </div>
         </div>
+          
+        <div className="two">
+       
+       <div className="sub-flex-container jumah">
+         <div>
+               <img className='review-image'  src="images/Reviews/image1.svg"/>
+           </div>
+         <div>
+               <p className="review-name"> Mohh Jumah<br/> <span className='reviewjob'>Senior Developer</span></p>
+           </div>
+       </div>
+       <div>
+           <p className='review-para' > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis </p>
+       </div>
+       </div>
+          
+        <div className="three">
+        <div className="sub-flex-container john">
+        <div> 
+        <img className='review-image' src="images/Reviews/image2.svg"/> 
+        </div> 
+        <div>
+            <p className="review-name"> John Mark <br/><span className='reviewjob'> Data Analyst</span></p>         
+            </div>        
+            </div>
+            <div>
+            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis </p>
+            </div>
+        </div>
+          
+        {/* <div className="two">
+       
+       <div className="sub-flex-container">
+
+         <div>
+               <img className='review-image'  src="images/Reviews/image1.svg"/>
+           </div>
+
+         <div>
+               <p className="review-name"> Mohh Jumah<br/> <span className='reviewjob'>Senior Developer</span></p>
+               
+           </div>
+
+       </div>
+
+      
+       <div>
+           <p className='review-para' > Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
+       </div>
+       </div>
           
         <div className="three">
         <div className="sub-flex-container">
@@ -176,49 +226,7 @@ export default class Responsive extends Component {
             <div>
             <p className='review-para'> Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
             </div>
-        </div>
-          
-        <div className="three">
-        <div className="sub-flex-container">
-        <div> 
-        <img className='review-image' src="images/Reviews/image2.svg"/> 
-        </div> 
-        <div>
-            <p className="review-name"> John Mark <br/><span className='reviewjob'> Data Analyst</span></p>         
-            </div>        
-            </div>
-            <div>
-            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
-            </div>
-        </div>
-          
-        <div className="three">
-        <div className="sub-flex-container">
-        <div> 
-        <img className='review-image' src="images/Reviews/image2.svg"/> 
-        </div> 
-        <div>
-            <p className="review-name"> John Mark <br/><span className='reviewjob'> Data Analyst</span></p>         
-            </div>        
-            </div>
-            <div>
-            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
-            </div>
-        </div>
-          
-        <div className="three">
-        <div className="sub-flex-container">
-        <div> 
-        <img className='review-image' src="images/Reviews/image2.svg"/> 
-        </div> 
-        <div>
-            <p className="review-name"> John Mark <br/><span className='reviewjob'> Data Analyst</span></p>         
-            </div>        
-            </div>
-            <div>
-            <p className='review-para'> Lorem ipsum dolor sit amet, consectetur sfsg dfc adipiscing elit. Consectetur ac blandit nam massa massa  </p>
-            </div>
-        </div>
+        </div> */}
         </Slider>
       </div>
     );

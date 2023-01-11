@@ -69,7 +69,10 @@
 }
 .mark{
     font-size: 32px;
-    margin-bottom: 8px;
+}
+.ftic{
+    font-size: 32px;
+    margin-bottom: -20px;
 }
 .Top-image-content{
     width: 260px;
@@ -292,6 +295,199 @@ color: #F77E23;
     color: #333333;
     letter-spacing: -0.02em;
 }
+#lgreview-header{
+    margin-left: -200px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    text-transform: capitalize;
+    padding-right: 300px;
+    color: #000000;
+}
+.review-para{
+    
+    padding-left:0px;
+    padding-right: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 20px;
+}
 
 
+
+.review-main-container{
+  
+    margin-right: 180px;
+    margin-left: 50px;
+    position: relative;
+    left: 100px;
+   
+    
+}
+
+.sub-flex-container{
+    width: 300px;
+    
+} 
+
+.review-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.three{
+    margin-left: 10px;
+    
+}
+.Expandcircledown1{
+    position: absolute;
+ left: -1000px;
+ top: 105px;
+}
+.Expandcircledown2{
+    position: absolute;
+    left: -350px;
+}
+.bgfooter-name{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.8px;
+    line-height: 41px;
+}
+.bgfooter-para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: lowercase;   
+}
+.bgaddress{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+   .sub-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    width: 54px;
+    height: 24px;
+    color: white;
+   }
+   .get{
+    font-weight: 300;
+   }
+   .fa{
+    padding: 0px;
+   }
+   .footer-link{
+    margin-left: -30px;
+   }
+
+   .bgsmsub-button{
+  
+    position: absolute;
+    top:-2px;
+    right: -6px;
+   }
+
+   .lgfooter-input[type="text"]{
+    Width:419px;
+    Height:52px;
+    border: none;
+    border-radius:0px;
+    margin-left: 100px;
+    
+}
+
+.bgsub-update{
+  position: relative;
+  
+  left: 420px;
+ top: -20px;
+}
+
+
+#hidereview-header{
+margin-bottom: -150px;
+display: block;
+}
+.students{
+    padding-left: 75px;
+  }
+
+  .bgpublications-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 71px;
+    padding-right: 130px;
+    margin-left: 100px;
+  }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .Expandcircledown1{
+        position: absolute;
+     left: -1070px;
+     top: 109px;
+    }
+    .Expandcircledown2{
+        position: absolute;
+        left: -350px;
+    }
+    .bgfooter-sub-section-one{
+        padding-top: 25px;
+        margin-right: -150px;
+       }
+       .bgfooter-last-flex{
+        padding-top: 25px;
+        margin-right: -10px;
+       }
+       .bgfooter-para{
+        margin-left: -50px;
+       }
+       .fa{
+        padding: 0px;
+       }
+       .footer-link{
+        margin-left: -82px;
+        margin-top: 30px;
+       }
+       .footer-link a{
+        margin-right: 26px;
+       }
+       
+        .lgfooter-input[type="text"]{
+            Width:419px;
+            Height:52px;
+            border: none;
+            border-radius:0px;
+            margin-left: 120px;
+            
+       }
+       .bgsmsub-button{
+  
+    position: absolute;
+    top:-2px;
+    right: 12px;
+   }
 }
