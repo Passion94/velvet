@@ -55,7 +55,147 @@
       left: -20px;
       top: 0px;
     }
+    .form-images{
+      position: relative;
+      left: 110px;
+    }
+    .form-block-image{
+      position: absolute;
+      right: 150px;
+    }
+
+.address{
+  font-size: 24px;
+}
+
+    .sub-update{
+      padding-left: 70px;
+      font-size: 25px;
+    }
+  
+  .footer-name{
+    padding-left: 40px;
+    font-size: 35px;
+  }
+   .footer-link{
+    padding-left: 30px;
+
+   }
+   .smcontentionarylogo{
+    padding-left: 20px;
+   
+   }
+   .powered{
+    padding-left: 50px;
+    font-size: 30px;
+   }
+
+
+
+   #marketing-background-img{
+    background-image:url("../public/images/Topcategories-images/imagelg1.svg");
+    height: 200px;
     
+    background-color: black;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 8px;
+   
+  }
+  
+  #design-background-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url("../public/images/Topcategories-images/img1.png");
+    height: 200px;
+    /* width: 25%; */
+    background-color:black;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../public/images/Topcategories-images/img1.png"); */
+    position: relative;
+    border-radius: 10px;
+    filter: blur(0.5px);
+   
+  }
+  #programming-background-img{
+    /* background-image:url("../public/images/Topcategories-images/img3.png"); */
+    height: 200px;
+    /* width: 25%; */
+    background-color: black;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../public/images/Topcategories-images/img3.png");
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  #technology-background-img{
+    background-image:url("../public/images/Topcategories-images/imagelg4.png");
+    height: 200px;
+    /* width: 25%; */
+    background-color: black;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+  }
+
+.mark{
+  position: relative;
+  bottom: -80px;
+  font-size: 12px;
+}
+.markc{
+  position: relative;
+  bottom: -90px;
+}
+#smreview-header{
+  font-size: 28px;
+  position: relative;
+  right: 150px;
+}
+
+.sub-flex-container{
+  position: relative;
+  right: 10px;
+  
+}
+.review-name{
+font-size: 16px;
+}
+.reviewjob{
+  font-size: 16px;
+}
+
+.review-image{
+  margin: 0px;
+  margin-right: -50px;
+  height: 60px;
+}
+
+.Expandcircledown2  {
+  position: relative;
+  top: -60px;
+  font-size: 50px;
+}
+
+.Expandcircledown1  {
+  position: absolute;
+  top:-155px;
+  font-size: 50px;
+}
+.footer{
+  margin-top: 40px;
+
+}
+
+.competate{
+padding: 0px;
+}
   }
   
   

@@ -36,7 +36,8 @@ function Banner1(){
 <p className=" banner-text-paragraph">  We prepare you to engage in the world<br className="smbreaks"/> that is to and help bring<br className="lgbreaks"/>about a world<br className="smbreaks"/> that ought to be</p>
 <button className=" buttons banner1-button"> Get started</button>
 <div className='restart-container'>
-        <ArrowUpwardOutlinedIcon   className='restart' fontSize='50px' onClick={scrollToTop} />
+        {/* <ArrowUpwardOutlinedIcon    fontSize='50px'  /> */}
+        <img className='restart-button' src='images/restart.svg' onClick={scrollToTop}/>
         </div>
 </div>
     );

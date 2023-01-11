@@ -28,7 +28,7 @@ function Card(props) {
         <Details detailInfo={props.numberofstudents}/>
         </div>
         <div className="price">
-        <Details detailInfo={props.price}/>
+        <p>{props.price}</p>
         </div>
         </div>
       </div>

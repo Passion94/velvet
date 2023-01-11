@@ -108,7 +108,7 @@ stroke-width: 0;
   padding-right: 0px;
   font-size: 23.9628px;
   /* line-height: 30px; */
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   color: #F77E23;
   margin-left: -170px;
   font-weight:600px;
@@ -121,7 +121,7 @@ stroke-width: 0;
   margin-top: -90PX;
 
   color:#FFFFFF;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -202,7 +202,7 @@ color: #F77E23;
 .top-categories-header{
   text-align: center;
   margin-top: 70PX;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -240,7 +240,7 @@ width: 100%;
   
 }
 .expert-textand-button{
-  font-family: Poppins;
+  font-family: "Poppins";
 font-size: 32px;
 font-weight: 700;
 line-height: 48px;
@@ -260,7 +260,7 @@ padding-right: 40px;
   text-decoration: underline;
 }
 .expert-textand-button-para{
-  font-family: Poppins;
+  font-family: "Poppins";
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -391,8 +391,6 @@ text-align: center;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* margin-left: 3px;
-  margin-right: 3px; */
   margin: 0px;
 }
 #all-main-header{
@@ -400,7 +398,7 @@ text-align: center;
  padding-left: 85px;
  padding-right: 85px;
  color: #333333;
- font-family: Poppins;
+ font-family: "Poppins";
  font-size: 24px;
  font-weight: 600;
  line-height: 36px;
@@ -428,7 +426,7 @@ height: 46px;
   padding:1px 8px 1px 8px;
   background-color:  #F77E23;
   border-radius: 50px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 12px;
   font-weight: normal;
   line-height: 27px;
@@ -444,7 +442,7 @@ height: 46px;
   font-size: 12px;
   font-weight: 400;
   width: 195px;
-  font-family: Poppins;
+  font-family: "Poppins";
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0px 0px 20px 0px #CBCBCB40;
@@ -461,7 +459,7 @@ height: 46px;
   display: flex;
   padding-left: 7px;
   /* padding-right: 3px; */
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -485,7 +483,7 @@ height: 46px;
   left: -144px;
 
 
-  font-family: Poppins;
+  font-family: "Poppins";
 font-size: 14px;
 font-weight: 500PX;
 line-height: 21px;
@@ -505,7 +503,7 @@ letter-spacing: 0em;
   position: relative;
   bottom: 9px;
   padding-right: 5px;
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 8px;
 font-weight: 500;
 line-height: 12px;
@@ -518,7 +516,7 @@ width: 70PX;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: Poppins;
+  font-family: "Poppins";
 font-size: 12px;
 font-weight: 400;
 line-height: 18px;
@@ -546,7 +544,7 @@ bottom: 60px;
 color: white;
 padding-left: 10px;
 padding-right: 10px;
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 11px;
 font-weight: 500;
 line-height: 17px;
@@ -721,7 +719,7 @@ height: 430px;
 }
 .publications-text{
   margin-top: 400px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -732,7 +730,7 @@ height: 430px;
 }
 
 .publication-para{
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 36px;
@@ -792,7 +790,7 @@ height: 430px;
   /* text-decoration: underline; */
 }
 #smreview-header{
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -866,7 +864,7 @@ height: 430px;
 .footer-sub-section{
   display: flex;
   justify-content: space-around;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -986,7 +984,7 @@ font-size: 16px;
 }
 .footer-name{
   color: #F77E23;
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
 font-size: 30px;
 font-weight: 600px;
 line-height: 41px;
@@ -1091,7 +1089,7 @@ bottom: 0px;
   }
 
 .competate{
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 24px;
 font-weight: 600;
 line-height: 36px;

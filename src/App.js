@@ -17,6 +17,7 @@ import Onlineexams from "./Onlineexams";
 import "./480.css"
 import "./600.css"
 import "./1024.css"
+import "./1280.css"
 
 function App() {
   return (

@@ -14,12 +14,12 @@
     }
     .Expandcircledown2{
       position: relative;
-      bottom: 60px;
+      bottom: 80px;
       right: 0px;
     }
     .Expandcircledown1{
       position: relative;
-      top: -170px;
+      top: -165px;
       right: 100px;
     }
    
@@ -122,6 +122,31 @@
     left: 0px;
   }
   
-  
-  
+  .card{
+    width: 200px;
   }
+  .publications-container{
+    margin-top: -250px;
+  }
+
+
+  .sub-update{
+    padding-left: 40px;
+  }
+
+.footer-name{
+  padding-left: 17px;
+}
+ .footer-link{
+  padding-left: 15px;
+ }
+ .smcontentionarylogo{
+  padding-left: 10px;
+ }
+ .powered{
+  padding-left: 40px;
+ }
+   }
+
+
+  

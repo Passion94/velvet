@@ -16,7 +16,7 @@ import Slider from "react-slick";
         // style={{ ...style, display: "flex", background: "#F77E23",fontSize:"200px",height:"50px", width:"50px", borderRadius:"50%", alignItems:"center",color:"red" }}
         onClick={onClick}
       >
-      <ChevronRightOutlinedIcon className="previous" fontSize="30px" />
+      <ChevronRightOutlinedIcon className="previous" fontSize="30px" id="feat-prev" />
       </div>
     );
   }
@@ -29,7 +29,7 @@ import Slider from "react-slick";
         style={{ ...style, display: "block", zIndex:"1" }}
         onClick={onClick}
       >
-      <ChevronLeftOutlinedIcon  fontSize="70px" className="next first-arrow"/>
+      <ChevronLeftOutlinedIcon  fontSize="70px" className="next first-arrow" id="feat-next"/>
       </div>
     );
   }
@@ -145,11 +145,11 @@ import Slider from "react-slick";
     </Slider>
     </div> */}
 
-<div className="trying">
+<div className="trying featured-everything">
     <Slider {...settings} >
    
     <div id="marketing-background-img">
-    <div className="Top-image-content ftic">
+    <div className="Top-image-content ftic ftic2 featured-image-content">
     <p className="mark ftic markc">Marketing Contest</p>
     <p className="hidecontent">
     <p> The Future Economy</p>
@@ -160,7 +160,7 @@ import Slider from "react-slick";
     </div>
       </div>
       <div id="design-background-img">
-    <div className="Top-image-content">
+    <div className="Top-image-content featured-image-content">
     <p className="mark ftic"> UI/UX Design Contest</p>
     <p className="hidecontent">
     <p> Accessibilty in design</p>
@@ -172,7 +172,7 @@ import Slider from "react-slick";
     </div>
       </div>
       <div id="programming-background-img">
-    <div className="Top-image-content">
+    <div className="Top-image-content featured-image-content">
     <p className="mark ftic">Programming Contest</p>
     <p className="hidecontent">
     <p> The Future of AI</p>
@@ -184,7 +184,7 @@ import Slider from "react-slick";
     </div>
       </div>
       <div id="technology-background-img">
-        <div className="Top-image-content">
+        <div className="Top-image-content featured-image-content">
           <p className="mark ftic">Photography<br/> Contest</p>
           <p className="hidecontent">
           <p> The Beauty of Art</p>
@@ -195,7 +195,7 @@ import Slider from "react-slick";
         </div>
       </div>
       <div id="programming-background-img">
-    <div className="Top-image-content">
+    <div className="Top-image-content featured-image-content">
     <p className="mark ftic">Biology <br/>Contest</p>
     <p className="hidecontent">
     <p> Our Nature</p>
@@ -206,7 +206,7 @@ import Slider from "react-slick";
     </div>
       </div>
       <div id="programming-background-img">
-    <div className="Top-image-content">
+    <div className="Top-image-content featured-image-content">
     <p className="mark ftic">Data Analysis Contest</p>
     <p className="hidecontent">
     <p> Comparative Data</p>
@@ -217,7 +217,7 @@ import Slider from "react-slick";
     </div>
       </div>
       <div id="programming-background-img">
-    <div className="Top-image-content">
+    <div className="Top-image-content featured-image-content">
     <p className="mark ftic">Content Writing<br/> Contest</p>
     <p className="hidecontent">
     <p> The Magic Pen</p>

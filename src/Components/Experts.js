@@ -22,7 +22,7 @@ function Experts(){
             
             <p> We are <span className="expert-word"> Experts</span> Learning institution</p>
             <p className="expert-textand-button-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit elit, bibendum volutpat platea mi, adipiscing eget magna. Eu nulla ut urna venenatis velit et tincidunt. Id vitae velit  </p>
-            <button className=" buttons "> Enrol Now</button>
+            <button className=" buttons enroll-button "> Enrol Now</button>
         
         </div>
     </div>

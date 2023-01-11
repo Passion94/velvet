@@ -54,23 +54,29 @@ import Slider from "react-slick";
       prevArrow: <SamplePrevArrow />,
       variableWidth: false,
         responsive: [
-            {
+
+          {
+            breakpoint: 1280,
+            settings: {
+              className: "center",
+              centerMode: true,
+              slidesToShow: 4,
+              slidesToScroll: 3,
+              infinite: false,
+              dots: false,
+
+            },
+          
               breakpoint: 1024,
               settings: {
-                className: "center",
-                centerMode: true,
-                 
-                slidesToScroll: 3,
+                slidesToShow: 3,
                 
-                
+                slidesToScroll: 2,
                 infinite: false,
-                dots: false,
-                
-             
-                
 
               },
-
+              
+  
                 
                     breakpoint: 600,
                     settings: {

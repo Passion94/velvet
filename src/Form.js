@@ -57,13 +57,13 @@ function Form(){
                 />
                 </div>
                 <select id="rolldown" value="list">
-                    <option className="placeholders" value="list"> List of courses goes here</option>
-                    <option className="placeholders" value="arts">Arts Studies</option>
-                    <option className="placeholders" value="education"> Education Studies</option>
-                    <option className="placeholders" value="computer"> Computer Science</option>
-                    <option className="placeholders" value="management"> Management Education</option>
-                    <option className="placeholders" value="health"> Health Sciences</option>
-                    <option className="placeholders" value="engineering"> Enginerring</option>
+                    <option className="placehol" value="list"><p><img src="https://media.istockphoto.com/id/1368262824/photo/blurred-motion-of-blue-ocean-wave-crashing-in-golden-light.jpg?s=612x612&w=is&k=20&c=E5S9wmdveERoNGPHLxXD6eKj6K9yc7OGG6TjDVTDEiE=" width="30px" height="30px"/>List of courses goes here</p></option>
+                    <option className="placehol" value="arts">Arts Studies</option>
+                    <option className="placehol" value="education"> Education Studies</option>
+                    <option className="placehol" value="computer"> Computer Science</option>
+                    <option className="placehol" value="management"> Management Education</option>
+                    <option className="placehol" value="health"> Health Sciences</option>
+                    <option className="placehol" value="engineering"> Enginerring</option>
                 </select>
 
                 <input type="submit" value="Register" />
