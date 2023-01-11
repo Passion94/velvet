@@ -128,13 +128,20 @@ line-height: 30px;
 .see-all-container{
     margin-bottom: 20px;
 }
+.expert-container:hover{
+    /* background: rgba(255, 255, 255, 0.6); */
+backdrop-filter: blur(200px);
+
+}
 .expert-container{
     position: relative;
     padding-left: 120px;
+    
 }
 
 .expert-textand-button {
 padding-right: 135px;
+
 }
 .expert-word{
     padding-right: 200px;

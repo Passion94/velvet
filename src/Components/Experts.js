@@ -1,6 +1,7 @@
 
 function Experts(){
     return(
+       <div className="expert-backdrop">
     <div className='expert-container'>
 
 
@@ -30,7 +31,7 @@ function Experts(){
     
     </div>
     
-    
+    </div>
     
     );
     }
