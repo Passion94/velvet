@@ -107,15 +107,50 @@ stroke-width: 0;
   padding-left: 0px;
   padding-right: 0px;
   font-size: 23.9628px;
-  /* line-height: 30px; */
+  line-height: 30px;
   font-family: "Source Sans Pro";
   color: #F77E23;
-  margin-left: -170px;
-  font-weight:600px;
-  
-  
-  
+  margin-left: -150px;
+  font-weight: 600;
 } 
+.fountain--dot--container--footer{
+  display: flex;
+  
+  position: relative;
+  top: -65px;
+  left: 33px;
+  z-index: 1;
+  
+}
+.fountain--dot--container{
+  display: flex;
+  
+  position: relative;
+  top: -49px;
+  left: -124px;
+  z-index: 1;
+  
+  
+}
+.fountain--dot1{
+  background-color: #F77E23;
+  height: 3.5px;
+  width: 3.5px;
+  border-radius: 50%;
+  
+}
+.fountain--dot2{
+  margin-top: 10px;
+  background-color: #F77E23;
+  height: 3.5px;
+  width: 3.5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: 7px;
+  
+  
+}
 
 .banner-text{
   margin-top: -90PX;
@@ -831,11 +866,12 @@ height: 430px;
 }
 .Expandcircledown1{
   font-size:35px;
- 
+  font-weight: normal;
+  opacity: 0.6;
   color:#F77E23;
   
   position: absolute;
-  bottom: 116px;
+  bottom: 163px;
  right: 50px;
   background-color:white ;
   border-radius: 50% ; 
@@ -898,8 +934,12 @@ height: 430px;
 }
 
 .footer-sub-section-one{
- font-size: 15px;
+ font-size: 16px;
  font-weight: normal;
+ font-family: " Poppins" ;
+ font-Weight:400;
+ Line-height:24px;
+ 
 }
 .sub-update{
 /* text-align: center; */
@@ -912,13 +952,19 @@ font-size: 16px;
   text-decoration: none;
   color: #f2f2f2;
   display:block;
-  font-size: 15px;
   padding-top: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 .address{
-  font-weight: bold;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  
+  line-height: 24px;
   
 }
 
@@ -929,17 +975,27 @@ font-size: 16px;
   margin-left: 1rem;
    
 }
-.sminputfoot{
+input[class="sminputfoot"]{
   margin-left: 0px;
+  height: 36.06605529785156px;
+  width: 380px;
+ 
+  border-radius: 0px;
+  
 }
 
 .smsub-button{
   position: absolute;
   top:0px;
-  left: 268px;
-  padding:.92rem;
+  left: 292px;
+  /* padding:.92rem; */
   color: white;
   background-color: #F77E23;
+  height: 36.06605529785156px;
+  width: 87.85321044921875px;
+
+  border-radius: 0px;
+
   /* border: 2px solid #F77E23; */
 }
 
@@ -1258,11 +1314,4 @@ color: #333333;
   top: -55px;
   font-weight: normal;
   opacity: 0.6;
-}
-.Expandcircledown1{
-position: relative;
-top: -174px;
-font-weight: normal;
-opacity: 0.6;
-right: 60px;
 }

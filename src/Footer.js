@@ -28,7 +28,7 @@ function Footer(){
 
 <div>
 <p className='address'> Company</p>
-<a className="sub-link" href="#"> About</a>
+<a className="sub-link" href="#"> About Us</a>
 <a className="sub-link" href="#">Features</a>
 <a className="sub-link" href="#">Pricing</a>
 </div>
@@ -36,6 +36,10 @@ function Footer(){
 
 <div className='down-footer'>
 <p className='footer-name'> Fountain</p>
+<div className='fountain--dot--container--footer'>
+            <span className='fountain--dot1'></span>
+            <span className='fountain--dot2'></span>
+            </div>
 <div className='footer-link'>
 <a href=""><FacebookOutlinedIcon className='fa' fontSize='25px'/></a>
 <a className='twiter-background' href=""><i className="fa fa-twitter w3-hover-opacity"></i></a>
@@ -74,6 +78,10 @@ function Footer(){
 
 <div className='bgdown-footer'>
 <p className='bgfooter-name'> Fountain</p>
+<div className='fountain--dot--container--footer'>
+            <span className='fountain--dot1'></span>
+            <span className='fountain--dot2'></span>
+            </div>
 <p className="bgfooter-para"> We are not here to sell you <br/> products, we sell value through<br/> our expertise.</p>
 <div className='footer-link'>
 <a href=""><FacebookOutlinedIcon className='fa'/></a>
@@ -97,7 +105,7 @@ function Footer(){
 
 <div className='bgfooter-last-flex'>
 <p className='bgaddress'> Company</p>
-<a className="sub-link" href="#"> About</a>
+<a className="sub-link" href="#"> About Us</a>
 <a className="sub-link" href="#">Features</a>
 <a className="sub-link" href="#">Pricing</a>
 </div>

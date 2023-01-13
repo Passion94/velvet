@@ -1,5 +1,34 @@
 @media screen and (min-width: 480px ) {
-    .smsub-button{
+
+
+  input[class="sminputfoot"]{
+    margin-left: 0px;
+    height: 36.06605529785156px;
+    width: 380px;
+   
+    border-radius: 0px;
+    
+  }
+  
+  .smsub-button{
+    position: absolute;
+    top:0px;
+    left: 310px;
+    /* padding:.92rem; */
+    color: white;
+    background-color: #F77E23;
+    height: 36.06605529785156px;
+    width: 87.85321044921875px;
+  
+    border-radius: 0px;
+  
+    /* border: 2px solid #F77E23; */
+  }
+
+
+
+
+    /* .smsub-button{
       margin: 0px;
       padding-left: 30px;
       padding-right: 30px;
@@ -7,7 +36,7 @@
       padding-top: 13px;
       border: null;
       
-    }
+    } */
     .form-sub-section{
       margin-left: 40px;
       width: 83%;
@@ -18,8 +47,8 @@
       right: 0px;
     }
     .Expandcircledown1{
-      position: relative;
-      top: -165px;
+      position: absolute;
+      top: -171px;
       right: 100px;
     }
    
@@ -146,6 +175,15 @@
  .powered{
   padding-left: 40px;
  }
+ .fountain--dot--container--footer{
+  display: flex;
+  
+  position: relative;
+  top: -65px;
+  left: 50px;
+  z-index: 1;
+  
+}
    }
 
 

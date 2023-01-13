@@ -1,4 +1,13 @@
 @media screen and (min-width: 1024px) {
+
+  .maincontainer{
+    /* width: 100%; */
+     max-width: 1200px;
+     margin: 0 auto ;
+     backdrop-filter: blur(200px);
+     
+   }
+
     .previous{
       
       visibility: visible;
@@ -1531,7 +1540,60 @@ select{
       background-color: white;
       color: #F77E23;   
   }
-  
+  .fountain--dot--container{
+    display: flex;
+    
+    position: relative;
+    top: -25px;
+    left: -188px;
+    z-index: 1;
+    
+    
+  }
+  .fountain--dot1{
+    background-color: #F77E23;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    
+  }
+  .fountain--dot2{
+    margin-top: 10px;
+    background-color: #F77E23;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 7px;
+    
+    
+  }
+  .fountain--dot--container--footer{
+    display: flex;
+    
+    position: relative;
+    top: -65px;
+    left: 37px;
+    z-index: 1;
+    
+  }
+  input[class="lgfooter-input"]::placeholder {
+    color:  #F77E23;
+    opacity: 1; /* Firefox */
+  }
+
+  input[class="lgfooter-input"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #F77E23;
+   }
+   
+   input[class="lgfooter-input"]::-ms-input-placeholder { /* Microsoft Edge */
+    color: #F77E23;
+   }
+
+a{
+  cursor: pointer;
+}
   
   }
   

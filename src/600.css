@@ -185,7 +185,7 @@ font-size: 16px;
 
 .Expandcircledown1  {
   position: absolute;
-  top:-155px;
+  top:-175px;
   font-size: 50px;
 }
 .footer{
@@ -195,6 +195,30 @@ font-size: 16px;
 
 .competate{
 padding: 0px;
+}
+.smsub-button{
+  position: absolute;
+  top:0px;
+  left: 315px;
+  /* padding:.92rem; */
+  color: white;
+  background-color: #F77E23;
+  height: 36.06605529785156px;
+  width: 87.85321044921875px;
+
+  border-radius: 0px;
+
+  /* border: 2px solid #F77E23; */
+}
+
+.fountain--dot--container--footer{
+  display: flex;
+  
+  position: relative;
+  top: -70px;
+  left: 80px;
+  z-index: 1;
+  
 }
   }
   
