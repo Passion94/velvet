@@ -18,6 +18,7 @@ import "./480.css"
 import "./600.css"
 import "./1024.css"
 import "./1280.css"
+import "./394.css"
 
 function App() {
   return (

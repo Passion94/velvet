@@ -699,12 +699,13 @@ input[type=submit] {
   display: none ;
   visibility: hidden;
 }
+
 .publication-section{
   margin-top: 0px;
   display: inline-block;
   visibility: visible;
   background: rgb(255,251,247);
-background: radial-gradient(circle, rgba(255,251,247,1) 74%, rgba(255,228,211,1) 100%, rgba(255,228,211,1) 100%);
+  background: radial-gradient(circle, rgba(255,251,247,1) 74%, rgba(255,228,211,1) 100%, rgba(255,228,211,1) 100%);
   backdrop-filter: blur(200px);
   position: relative;
   margin-top: 50px;
@@ -1159,7 +1160,7 @@ color: #333333;
   margin-top: 450px;
 }
 .online-arrange{
-  
+ 
   color: #333333;
 }
 .online-arrange1{
@@ -1301,6 +1302,7 @@ color: #333333;
 } */
 .publications-main-container{
   margin-top: -490px;
+  background: radial-gradient(circle, rgba(255,251,247,1) 74%, rgba(255,228,211,1) 100%, rgba(255,228,211,1) 100%);
 }
 
 .public{
@@ -1319,4 +1321,12 @@ color: #333333;
   position: absolute;
   top:-179px;
   font-size: 35px;
+}
+.Expandcircledown1:hover{
+  background-color: green;
+  color: white;
+}
+.Expandcircledown2:hover{
+  background-color: green;
+  color: white;
 }

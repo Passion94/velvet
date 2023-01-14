@@ -1,0 +1,70 @@
+@media screen and (min-width: 394px ) {
+
+/* #fountain{
+    margin-left: -130px;
+   
+}
+.fountain--dot--container{
+    position: relative;
+    left: -103px;
+}
+.banner-text-header{
+    font-size: 28px;
+}
+.banner-text-paragraph{
+    font-size: 16px;
+}
+.buttons{
+    font-size: 14px;
+    padding: 18px 38px;
+}
+.live-chat-section-container{
+    font-size: 14px;
+}
+.mark{
+    font-size: 13px;
+    font-weight:bolder;
+}
+.expert-container{
+    height: 1000px;
+}
+.publication-section{
+    height: 1000px;
+}
+
+input,select{
+    width: 320px;
+}
+.form{
+    width: 320px;
+} */
+#smreview-header{
+    margin-left: 65px;
+}
+.Expandcircledown2{
+    position: absolute;
+    left: 220px;
+}
+.Expandcircledown1{
+    position: absolute;
+    right: 70px;
+    top: -175px;
+}
+/* input[class="sminputfoot"]{
+    width: 300px;
+}
+.smsub-button{
+    position: absolute;
+    left: 240px;
+}
+.powered{
+    font-size: 20px;
+}
+.online-container{
+    margin-left: 1px;
+}
+.publication-section{
+    margin-left: -19px;
+    
+} */
+}
