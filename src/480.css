@@ -1,5 +1,7 @@
 @media screen and (min-width: 480px ) {
-
+  #smreview-header{
+    margin-left: -20px;
+}
 
   input[class="sminputfoot"]{
     margin-left: 0px;
@@ -42,13 +44,13 @@
       width: 83%;
     }
     .Expandcircledown2{
-      position: relative;
+      position: absolute;
       bottom: 80px;
-      right: 0px;
+      left: 250px;
     }
     .Expandcircledown1{
       position: absolute;
-      top: -171px;
+      top: -175px;
       right: 100px;
     }
    

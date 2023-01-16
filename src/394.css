@@ -1,4 +1,26 @@
+
 @media screen and (min-width: 392px ) {
+    #smreview-header{
+        margin-left: 65px;
+    }
+
+    .Expandcircledown2{
+        position: absolute;
+        left: 200px;
+        top: -50px;
+       
+    }
+    .Expandcircledown1{
+        position: absolute;
+        right: 70px;
+        top: -195px;
+       
+    }
+
+}
+
+
+@media screen and (min-width: 411px ) {
 
 /* #fountain{
     margin-left: -130px;
@@ -38,17 +60,22 @@ input,select{
 .form{
     width: 320px;
 } */
+
 #smreview-header{
-    margin-left: 65px;
+    margin-left: 55px;
 }
+
 .Expandcircledown2{
     position: absolute;
-    left: 220px;
+    left: 200px;
+    top: -55px;
+   
 }
 .Expandcircledown1{
     position: absolute;
     right: 70px;
-    top: -175px;
+    top: -183px;
+   
 }
 /* input[class="sminputfoot"]{
     width: 300px;

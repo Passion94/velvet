@@ -870,10 +870,11 @@ height: 430px;
   font-weight: normal;
   opacity: 0.6;
   color:#F77E23;
-  
+  margin-top: 25px;
   position: absolute;
-  bottom: 163px;
- right: 50px;
+  bottom: 03px;
+ right: -1000px;
+ margin-right: -25px;
   background-color:white ;
   border-radius: 50% ; 
   border: 1px solid #F77E23;
@@ -882,10 +883,10 @@ height: 430px;
   font-size:35px;
  
   color:#F77E23;
-
+margin-left: 70px;
   position: absolute;
   bottom: 10px;
-  left: 290px;
+  left: 390px;
   background-color: white ;
   border-radius: 50% ;
   border: 1px solid #F77E23;
@@ -1311,17 +1312,18 @@ color: #333333;
 
 
 
-.Expandcircledown2  {
+ /* .Expandcircledown2  {
   position: relative;
   top: -55px;
+  margin-left: 60px;
   font-weight: normal;
   opacity: 0.6;
-}
+} 
 .Expandcircledown1  {
   position: absolute;
-  top:-179px;
+  top:-159px;
   font-size: 35px;
-}
+}  */
 .Expandcircledown1:hover{
   background-color: green;
   color: white;

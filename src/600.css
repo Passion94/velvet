@@ -17,22 +17,7 @@
       margin-left: 80px;
     }
   
-    .Expandcircledown2{
-      position: absolute;
-      /* right: 100px; */
-      top: -55px;
-      
-      margin-left: 100px;
-      
-    }
-    .Expandcircledown1{
-      position: absolute;
-      /* right: 100px; */
-      top: -111px;
-     
-      margin-left: 100px;
-      
-    }
+  
     .smsub-button{
       margin-left: 59px;
     }
@@ -156,7 +141,7 @@
 #smreview-header{
   font-size: 28px;
   position: relative;
-  right: 150px;
+  right: 120px;
 }
 
 .sub-flex-container{
@@ -177,16 +162,18 @@ font-size: 16px;
   height: 60px;
 }
 
-.Expandcircledown2  {
-  position: relative;
+.Expandcircledown2 {
+  position: absolute;
   top: -60px;
   font-size: 50px;
+ left: 350px;
 }
 
 .Expandcircledown1  {
   position: absolute;
-  top:-175px;
+  top:-170px;
   font-size: 50px;
+  right: 80px;
 }
 .footer{
   margin-top: 40px;
