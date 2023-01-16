@@ -16,6 +16,28 @@
         top: -195px;
        
     }
+    input[class="sminputfoot"]{
+        margin-left: 0px;
+        height: 36.06605529785156px;
+        width: 354px;
+       
+        border-radius: 0px;
+        
+      }
+     
+      .smsub-button{
+        position: absolute;
+        top:0px;
+        left: 273px;
+        /* padding:.92rem; */
+        color: white;
+        background-color: #F77E23;
+        height: 36.06605529785156px;
+        width: 80.85321044921875px;
+      
+        border-radius: 20px solid green;
+        
+      }
 
 }
 
@@ -77,6 +99,30 @@ input,select{
     top: -183px;
    
 }
+input[class="sminputfoot"]{
+    margin-left: 0px;
+    height: 36.06605529785156px;
+    width: 375px;
+   
+    border-radius: 0px;
+    
+  }
+ 
+  .smsub-button{
+    position: absolute;
+    top:0px;
+    left: 295px;
+    /* padding:.92rem; */
+    color: white;
+    background-color: #F77E23;
+    height: 36.06605529785156px;
+    width: 80.85321044921875px;
+  
+    border-radius: 20px solid green;
+    
+  }
+
+
 /* input[class="sminputfoot"]{
     width: 300px;
 }
